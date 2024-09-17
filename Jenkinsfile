@@ -1,43 +1,49 @@
 pipeline {
-	agent {
-		docker {
-			image 'python:2.7'
-			args '-u root'
-		}
-	}
+    agent any
 
-	stages {
+    options {
+        buildDiscarder(logRotator(numToKeepStr: '7'))
+    }
 
-		stage('Linting') {
-			steps {
-				sh 'pip install -r requirements.txt'
-				sh 'make lint'
-			}
-		}
+    stages {
+        stage('Checkout') {
+            steps {
+                // Change <repo_ssh_key>
+                checkout([$class: 'GitSCM',
+                    branches: [[name: '*/master']],
+                    doGenerateSubmoduleConfigurations: false,
+                    extensions: [[$class: 'CleanCheckout']],
+                    userRemoteConfigs: [[credentialsId: '<repo_ssh_key>', url: 'git@github.com:usegalaxy-it/usegalaxy-it-tools.git']]
+                ])
+            }
+        }
 
-		stage('Updated Trusted Repositories') {
-			when {
-				branch 'master'
-			}
+        stage('Build') {
+            steps {
+                deleteDir()
+                // Change <api_key>
+                withCredentials([file(credentialsId: '<api_key>', variable: 'API_KEY')]) {
+                    withPythonEnv('Python-3.8.10') {
+                        sh 'pip install -r requirements.txt'
+                        sh 'make fix'
+                        sh 'make install GALAXY_SERVER=<http://...> GALAXY_API_KEY=${API_KEY}'
+                        sh 'git add *.yaml.lock'
+                        sh 'git commit -m "Update lock files. Jenkins Build: ${BUILD_NUMBER}" -m "https://github.com/usegalaxy-it/usegalaxy-it-tools-reports/blob/main/reports/$(date +%Y-%m-%d-%H-%M)-tool-update.md" || true'
+                    }
+                }
+            }
+        }
+    }
 
-			steps {
-				sh 'git reset --hard origin/master'
-				sh 'git remote -v show'
-				sh 'git checkout master'
-				sh 'git branch'
-				sh 'git branch -a'
-
-				sh 'pip install -r requirements.txt'
-				sh 'make update_trusted'
-
-				sh 'mkdir -p ~/.ssh'
-				sh 'ssh-keyscan -t rsa github.com >> ~/.ssh/known_hosts'
-
-				sshagent(['21341801-8530-459e-bed7-40057c7b98ff']) {
-					sh 'git push git@github.com:usegalaxy-eu/usegalaxy-eu-tools.git master'
-				}
-			}
-		}
-
-	}
+    post {
+        // Change <repo_ssh_key>
+        success {
+            archiveArtifacts artifacts: 'report.log', onlyIfSuccessful: true
+            git branch: 'master', credentialsId: '<repo_ssh_key>', pushOnlyIfSuccess: true, url: 'git@github.com:usegalaxy-it/usegalaxy-it-tools.git'
+        }
+        // Change admin email
+        always {
+            emailext body: '', recipientProviders: [[$class: 'DevelopersRecipientProvider'], [$class: 'RequesterRecipientProvider']], subject: "${env.JOB_NAME} - Build #${env.BUILD_NUMBER} - ${currentBuild.currentResult}", to: '<admin@gmail.com>', sendToIndividuals: true, unstable: true
+        }
+    }
 }

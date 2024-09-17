@@ -37,23 +37,21 @@ for line in sys.stdin:
         installing_repo = False
 
 if not sections:
+    print("""Repositories are up to date at {date}, nothing is installed!
+    Jenkins Build #{build_number}""".format(date=today, build_number=os.environ.get('BUILD_NUMBER', '??')))
     sys.exit(0)
 
 print("""---
-site: freiburg
+site: usegalaxy.it
 tags: [tools]
-title: UseGalaxy.eu Tool Updates for {date}
-supporters:
-- denbi
-- elixir
+title: UseGalaxy.it Tool Updates for {date}
 ---
-
-On {date}, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in [Jenkins Build #{build_number}](https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#{build_number}/)
-
+On {date}, the tools on UseGalaxy.it were updated by our automated tool update and installation process in Jenkins Build #{build_number})
 """.format(date=today, build_number=os.environ.get('BUILD_NUMBER', '??')))
 
 for section in sections:
     print("## {}\n".format(section))
     for (owner, repo, revision) in sorted(set(sections[section])):
-        print("- {repo} was updated to [{revision}](https://toolshed.g2.bx.psu.edu/view/{owner}/{repo}/{revision})".format(**locals()))
+        print(
+            "- {repo} was updated to [{revision}](https://toolshed.g2.bx.psu.edu/view/{owner}/{repo}/{revision})".format(**locals()))
     print('')
