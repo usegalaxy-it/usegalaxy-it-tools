@@ -1,0 +1,24 @@
+diff --git a/scripts/generate-report.py b/scripts/generate-report.py
+index 1b40ec6..3366778 100644
+--- a/scripts/generate-report.py
++++ b/scripts/generate-report.py
+@@ -40,15 +40,14 @@ if not sections:
+     sys.exit(0)
+ 
+ print("""---
+-site: freiburg
++site: usegalaxy.it
+ tags: [tools]
+-title: UseGalaxy.eu Tool Updates for {date}
++title: UseGalaxy.it Tool Updates for {date}
+ supporters:
+-- denbi
+-- elixir
++- elixir-it
+ ---
+ 
+-On {date}, the tools on UseGalaxy.eu were updated by our automated tool update and installation process in [Jenkins Build #{build_number}](https://build.galaxyproject.eu/job/usegalaxy-eu/job/install-tools/#{build_number}/)
++On {date}, the tools on UseGalaxy.it were updated by our automated tool update and installation process in Jenkins Build #{build_number})
+ 
+ """.format(date=today, build_number=os.environ.get('BUILD_NUMBER', '??')))
+ 
