@@ -1,0 +1,28 @@
+diff --git a/tools_iuc.yaml.lock b/tools_iuc.yaml.lock
+index 5bd15ac..16305d0 100644
+--- a/tools_iuc.yaml.lock
++++ b/tools_iuc.yaml.lock
+@@ -7989,23 +7989,10 @@ tools:
+   - a41d96fc0b20
+   - db50f51a2952
+   tool_panel_section_label: Peak Calling
+-- name: macs
+-  owner: devteam
+-  revisions:
+-  - e5f3bfba6812
+-  - f6319b0b4391
+-  tool_panel_section_label: Peak Calling
+ - name: macs2
+   owner: iuc
+   revisions:
+-  - 01cded2297b7
+-  - 424aefbd7777
+-  - 640d3af5d833
+-  - 6d4babad010f
+   - 86e2413cf3f8
+-  - bfe57d6e0c4c
+-  - c16dbe4e2db2
+-  - c33686854b19
+   tool_panel_section_label: Peak Calling
+ - name: peakzilla
+   owner: iuc
