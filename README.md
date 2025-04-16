@@ -1,2 +1,4 @@
-# usegalaxy.it-tools-reports
-Repository to store reports about updated/installed tools in Usegalaxy.it
+# usegalaxy.it tools repository
+Repository to manage tools update/installation in Usegalaxy.it.
+
+Documentation available [here](https://usegalaxy-it.github.io/documentation/tools.html)
