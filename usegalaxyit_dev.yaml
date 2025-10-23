@@ -4,12 +4,12 @@ install_resolver_dependencies: true
 install_tool_dependencies: false
 
 tools:
-  # data_retrieval
+  # Xata_retrieval
   - name: "sra_tools"
     owner: "iuc"
     tool_panel_section_label: "Get Data"
 
-    # quality_control
+  # Quality_control
   - name: "fastqc"
     owner: "devteam"
     tool_panel_section_label: "FASTA/FASTQ"
@@ -17,3 +17,12 @@ tools:
   - name: salmon
     owner: bgruening
     tool_panel_section_label: "RNA Analysis"
+
+  - name: falco
+    owner: iuc
+    tool_panel_section_label: FASTA/FASTQ
+
+  # Mapping
+  - name: bowtie2
+    owner: devteam
+    tool_panel_section_label: Mapping
