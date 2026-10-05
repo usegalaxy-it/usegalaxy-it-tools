@@ -40,10 +40,11 @@ if not sections:
     sys.exit(0)
 
 print("""---
-site: usegalaxy.it
+site: bari
 tags: [tools]
 title: UseGalaxy.it Tool Updates for {date}
 supporters:
+- cnr
 - elixir-it
 ---
 
