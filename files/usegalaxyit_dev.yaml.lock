@@ -17,6 +17,11 @@ tools:
   revisions:
   - 219ffa24f789
   tool_panel_section_label: FASTA/FASTQ
+- name: fastqc
+  owner: devteam
+  tool_panel_section_label: FASTA/FASTQ
+  revisions:
+  - 2c64fded1286
 - name: bowtie2
   owner: devteam
   revisions:
