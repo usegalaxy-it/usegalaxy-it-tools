@@ -5,7 +5,7 @@ set -e # stop in case of error
 set -o pipefail # a failure of shed-tools is not hidden by the pipe to tee
 shopt -s nullglob # a glob with no matches expands to nothing, not the literal pattern
 
-REPO_DIR=$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)
+REPO_DIR=$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)
 GALAXY_SERVER="${GALAXY_SERVER:-https://vm-usegalaxy-web.elixirservices.it}"
 : "${GALAXY_API_KEY:?GALAXY_API_KEY is not set}"
 DRY_RUN="${DRY_RUN:-0}"
