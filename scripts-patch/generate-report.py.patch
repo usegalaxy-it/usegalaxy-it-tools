@@ -1,19 +1,20 @@
-diff --git a/scripts/generate-report.py b/scripts/generate-report.py
-index 1b40ec6..3366778 100644
---- a/scripts/generate-report.py
-+++ b/scripts/generate-report.py
-@@ -40,15 +40,14 @@ if not sections:
+diff --git a/usegalaxy-eu-tools/scripts/generate-report.py b/scripts-patch/generate-report.py
+index 1b40ec6..1e7eaf9 100644
+--- a/usegalaxy-eu-tools/scripts/generate-report.py
++++ b/scripts-patch/generate-report.py
+@@ -40,15 +40,15 @@ if not sections:
      sys.exit(0)
  
  print("""---
 -site: freiburg
-+site: usegalaxy.it
++site: bari
  tags: [tools]
 -title: UseGalaxy.eu Tool Updates for {date}
 +title: UseGalaxy.it Tool Updates for {date}
  supporters:
 -- denbi
 -- elixir
++- cnr
 +- elixir-it
  ---
  
