@@ -4,7 +4,7 @@ set -u # stop if a variable is not initialized
 set -e # stop in case of error
 shopt -s nullglob # a glob with no matches expands to nothing, not the literal pattern
 
-REPO_DIR=$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)
+REPO_DIR=$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)
 EU_TOOLS="$REPO_DIR/usegalaxy-eu-tools"
 SCHEMA="$EU_TOOLS/.schema.yaml"
 
