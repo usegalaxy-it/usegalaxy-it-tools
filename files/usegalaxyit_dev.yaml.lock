@@ -1,0 +1,39 @@
+install_repository_dependencies: true
+install_resolver_dependencies: true
+install_tool_dependencies: false
+tools:
+- name: sra_tools
+  owner: iuc
+  revisions:
+  - 8848455c0270
+  tool_panel_section_label: Get Data
+- name: salmon
+  owner: bgruening
+  revisions:
+  - 29e12b90949d
+  tool_panel_section_label: RNA Analysis
+- name: falco
+  owner: iuc
+  revisions:
+  - 219ffa24f789
+  tool_panel_section_label: FASTA/FASTQ
+- name: bowtie2
+  owner: devteam
+  revisions:
+  - a470b376503d
+  tool_panel_section_label: Mapping
+- name: bowtie_wrappers
+  owner: devteam
+  revisions:
+  - b46e7d48076a
+  tool_panel_section_label: Mapping
+- name: bwa
+  owner: devteam
+  revisions:
+  - c598cbb8b019
+  tool_panel_section_label: Mapping
+- name: bwa_mem2
+  owner: iuc
+  revisions:
+  - af91699b8d4c
+  tool_panel_section_label: Mapping

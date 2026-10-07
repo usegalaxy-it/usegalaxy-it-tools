@@ -4,15 +4,9 @@ install_resolver_dependencies: true
 install_tool_dependencies: false
 
 tools:
-  # Xata_retrieval
-  - name: "sra_tools"
-    owner: "iuc"
-    tool_panel_section_label: "Get Data"
-
-  # Quality_control
-  - name: "fastqc"
-    owner: "devteam"
-    tool_panel_section_label: "FASTA/FASTQ"
+  - name: sra_tools
+    owner: iuc
+    tool_panel_section_label: Get Data
 
   - name: salmon
     owner: bgruening
@@ -22,7 +16,19 @@ tools:
     owner: iuc
     tool_panel_section_label: FASTA/FASTQ
 
-  # Mapping
   - name: bowtie2
     owner: devteam
     tool_panel_section_label: Mapping
+
+  - name: bowtie_wrappers
+    owner: devteam
+    tool_panel_section_label: Mapping
+
+  - name: bwa
+    owner: devteam
+    tool_panel_section_label: Mapping
+
+  - name: bwa_mem2
+    owner: iuc
+    tool_panel_section_label: Mapping
+
