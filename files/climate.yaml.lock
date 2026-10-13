@@ -1,0 +1,263 @@
+install_repository_dependencies: true
+install_resolver_dependencies: true
+install_tool_dependencies: false
+tools:
+- name: cdo_operations
+  owner: climate
+  revisions:
+  - d5355f6fa02b
+  tool_panel_section_label: Climate Analysis
+- name: cdo_info
+  owner: climate
+  revisions:
+  - 8e0ae5c594e7
+  tool_panel_section_label: Climate Analysis
+- name: psy_maps
+  owner: climate
+  revisions:
+  - 706666d912d5
+  - 988212a7466a
+  - e6d1e9d6b399
+  tool_panel_section_label: Climate Analysis
+- name: climate_stripes
+  owner: climate
+  revisions:
+  - abdc27e01dca
+  - c6f2435d680b
+  - fec3147b0206
+  tool_panel_section_label: Climate Analysis
+- name: cds_essential_variability
+  owner: climate
+  revisions:
+  - 9ee8db6ffba3
+  - ee42b7a33dc7
+  tool_panel_section_label: Climate Analysis
+- name: c3s
+  owner: climate
+  revisions:
+  - 21e8386cf36f
+  - bd153c794da1
+  - d7b62d55f8dd
+  tool_panel_section_label: Climate Analysis
+- name: cads
+  owner: climate
+  revisions:
+  - 67a7303bc5c9
+  - b768e517a7d0
+  tool_panel_section_label: Climate Analysis
+- name: shift_longitudes
+  owner: climate
+  revisions:
+  - 5708a3a46f2e
+  tool_panel_section_label: Climate Analysis
+- name: mean_per_zone
+  owner: climate
+  revisions:
+  - 4bb2f6091660
+  tool_panel_section_label: Climate Analysis
+- name: ctsm_fates
+  owner: climate
+  revisions:
+  - b525b88bc941
+  - efaa93ed5a79
+  tool_panel_section_label: Climate Analysis
+- name: cesm
+  owner: climate
+  revisions:
+  - 7a7ba86e95a4
+  tool_panel_section_label: Climate Analysis
+- name: eodie
+  owner: climate
+  revisions:
+  - 81b0ca76435d
+  tool_panel_section_label: Climate Analysis
+- name: xarray_metadata_info
+  owner: ecology
+  revisions:
+  - 00de53d18b99
+  - 56f57ddccbd3
+  - 9bbaab36a5d4
+  tool_panel_section_label: GIS Data Handling
+- name: xarray_select
+  owner: ecology
+  revisions:
+  - 3f70e5512e1d
+  - b393815e4cb7
+  - bf595d613af4
+  tool_panel_section_label: GIS Data Handling
+- name: xarray_coords_info
+  owner: ecology
+  revisions:
+  - 3e73f657a998
+  - 663e6f115a76
+  - 762f32ce768d
+  tool_panel_section_label: GIS Data Handling
+- name: xarray_netcdf2netcdf
+  owner: ecology
+  revisions:
+  - 38f1d26ad8e5
+  - c91c27b63fb2
+  - e87073edecd6
+  tool_panel_section_label: GIS Data Handling
+- name: xarray_mapplot
+  owner: ecology
+  revisions:
+  - 0a7399e79df6
+  - 506b6d6880ff
+  - dc05bf0af58f
+  tool_panel_section_label: GIS Data Handling
+- name: timeseries_extraction
+  owner: ecology
+  revisions:
+  - 810820a0d45c
+  - bb4a73ff1462
+  tool_panel_section_label: GIS Data Handling
+- name: gdal_gdaladdo
+  owner: ecology
+  revisions:
+  - 71f851f99bb9
+  - c46b8322a8ee
+  tool_panel_section_label: GIS Data Handling
+- name: gdal_gdalbuildvrt
+  owner: ecology
+  revisions:
+  - a9fb43f1515d
+  - b6152f24b94d
+  tool_panel_section_label: GIS Data Handling
+- name: gdal_gdalinfo
+  owner: ecology
+  revisions:
+  - 913cab85ce1e
+  - f7966270ef12
+  tool_panel_section_label: GIS Data Handling
+- name: gdal_gdal_merge
+  owner: ecology
+  revisions:
+  - 13c2f7b9e201
+  - 4285576f0690
+  tool_panel_section_label: GIS Data Handling
+- name: gdal_gdal_translate
+  owner: ecology
+  revisions:
+  - 266c5a7d3b21
+  - 50d3ee48d983
+  tool_panel_section_label: GIS Data Handling
+- name: gdal_gdalwarp
+  owner: ecology
+  revisions:
+  - e934b268add8
+  - fd5594c05fab
+  tool_panel_section_label: GIS Data Handling
+- name: gdal_ogr2ogr
+  owner: ecology
+  revisions:
+  - dc4f997604b8
+  - e12db3b4d3a6
+  tool_panel_section_label: GIS Data Handling
+- name: gdal_ogrinfo
+  owner: ecology
+  revisions:
+  - 24696f52a90a
+  - 75fe8153d775
+  tool_panel_section_label: GIS Data Handling
+- name: spocc_occ
+  owner: ecology
+  revisions:
+  - 4546864dbc34
+  - f64b3c1a80a6
+  - f9d76a46799a
+  tool_panel_section_label: Get Data
+- name: datamash_ops
+  owner: iuc
+  revisions:
+  - 4c07ddedc198
+  - 746e8e4bf929
+  - aaafc0ac4dd2
+  tool_panel_section_label: Join, Subtract and Group
+- name: datamash_reverse
+  owner: iuc
+  revisions:
+  - b5cc41ad28b3
+  - b8a457820315
+  - f198773344e4
+  tool_panel_section_label: Join, Subtract and Group
+- name: datamash_transpose
+  owner: iuc
+  revisions:
+  - a2667f8d23de
+  - a513e3fbb4c5
+  - a884245d3b3a
+  tool_panel_section_label: Join, Subtract and Group
+- name: collection_column_join
+  owner: iuc
+  revisions:
+  - 3ddd99c7efee
+  tool_panel_section_label: Join, Subtract and Group
+- name: scatterplot
+  owner: devteam
+  revisions:
+  - efda9a4a50e7
+  tool_panel_section_label: Graph/Display Data
+- name: histogram
+  owner: devteam
+  revisions:
+  - 6f134426c2b0
+  - cdb9e89e2970
+  - d0b9dd19e919
+  tool_panel_section_label: Graph/Display Data
+- name: xy_plot
+  owner: devteam
+  revisions:
+  - ecb437f1d298
+  tool_panel_section_label: Graph/Display Data
+- name: draw_stacked_barplots
+  owner: devteam
+  revisions:
+  - e997b710e38a
+  tool_panel_section_label: Graph/Display Data
+- name: ggplot2_pca
+  owner: iuc
+  revisions:
+  - 1df3b30325dd
+  - ae344ccf9d62
+  - b1268b7544d3
+  tool_panel_section_label: Graph/Display Data
+- name: ggplot2_heatmap
+  owner: iuc
+  revisions:
+  - 10515715c940
+  - 15cebddc6dba
+  - 1a72f938213e
+  tool_panel_section_label: Graph/Display Data
+- name: ggplot2_violin
+  owner: iuc
+  revisions:
+  - 0e7290688b50
+  - 17b666467c32
+  - 63d211052ffb
+  tool_panel_section_label: Graph/Display Data
+- name: ggplot2_heatmap2
+  owner: iuc
+  revisions:
+  - 48b42ee61bc5
+  - 51c6ccaace7e
+  - 6a097d09fca3
+  tool_panel_section_label: Graph/Display Data
+- name: ggplot2_point
+  owner: iuc
+  revisions:
+  - 5298e06f14f9
+  - 5fe1dc76176e
+  - f87634b12749
+  tool_panel_section_label: Graph/Display Data
+- name: ggplot2_histogram
+  owner: iuc
+  revisions:
+  - 11869c5becd8
+  - 355a82227003
+  - 398e5104f8a2
+  - 6b9816a913de
+  - 6fc8bab811da
+  - b0d96516e6a5
+  - fb50ab943396
+  tool_panel_section_label: Graph/Display Data

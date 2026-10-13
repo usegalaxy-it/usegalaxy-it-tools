@@ -1,0 +1,78 @@
+name	owner	n_before	n_after	kept	removed	warning
+msnbase_readmsdata	lecorguille	4	3	11ab2081bd4a,35b6fe4d481c,6de175c1f6ef	86a20118e743	
+genform	workflow4metabolomics	1	1	963722c4e1da		
+xcms_xcmsset	lecorguille	5	3	3990a65b45a4,6550698fe60f,b02d1992a43a	15646e937936,378ddb410225	
+xcms_plot_chromatogram	lecorguille	4	3	024974037c4e,9291271ec4d9,c8bef8f6a1cb	271c9d5f0d10	
+xcms_merge	lecorguille	5	3	5bd125a3f3b0,6d475a389abc,ae28a753a6f8	090cf284d9ff,a301f001835c	
+xcms_group	lecorguille	5	3	3820e3f3b1cb,71572faf938e,d45a786cbc40	4c8507667cd6,fe4002ac5193	
+xcms_refine	workflow4metabolomics	3	3	090b33a9981c,6c2798bce3eb,eb115eb8f25c		
+xcms_retcor	lecorguille	5	3	33c0ca93f3ee,aa252eec9229,d2b82d89f848	4bfef820569b,7faadba7c625	
+xcms_fillpeaks	lecorguille	5	3	26d77e9ceb49,a8d866a71ba1,ec9aebabc1d2	3bc94c3abb28,de0d85537ee3	
+xcms_summary	lecorguille	5	3	018a9771de28,1ae878634ab3,444e3ed135e3	a5347d57899f,acc0a4a366c1	
+camera_groupfwhm	workflow4metabolomics	1	1	62105fc70b8b		
+camera_groupcorr	workflow4metabolomics	1	1	d80037e14533		
+camera_findisotopes	workflow4metabolomics	1	1	b619d6825957		
+camera_findadducts	workflow4metabolomics	1	1	6044248f4c1f		
+camera_annotate	lecorguille	3	3	1c30ff90f3ae,73d82de36369,75a1b3f7bacc		
+camera_combinexsannos	mmonsoor	2	2	198b035d4848,961089e21ae2		
+mspurity_flagremove	computational-metabolomics	2	2	816bac69e03e,8dcfbb7f917a		
+mspurity_puritya	computational-metabolomics	2	2	3d6356bcf998,416460f611cc		
+mspurity_frag4feature	computational-metabolomics	2	2	31f64ff8320d,61ebae7e09f5		
+mspurity_filterfragspectra	computational-metabolomics	2	2	0a0f22586cad,1e6b7c4d99cd		
+mspurity_averagefragspectra	computational-metabolomics	2	2	406ae6769162,4207233ead9c		
+mspurity_createdatabase	computational-metabolomics	2	2	600a866a510c,fa84bfaab681		
+mspurity_createmsp	computational-metabolomics	2	2	d1d73007a255,f98b4bb0fa58		
+mspurity_dimspredictpuritysingle	computational-metabolomics	2	2	3959cddb01a6,b563d5fe4fc0		
+mspurity_purityx	computational-metabolomics	2	2	0f646a3e0a3f,d84cc9960035		
+dimspy_process_scans	computational-metabolomics	2	2	bc099f2346a1,deafa30d6570		
+dimspy_replicate_filter	computational-metabolomics	2	2	0cdf340364ed,6cb796aa12c8		
+dimspy_align_samples	computational-metabolomics	2	2	7b6f148bd99f,c72868b80c29		
+dimspy_blank_filter	computational-metabolomics	1	1	c2078c6d019d		
+dimspy_sample_filter	computational-metabolomics	1	1	cd489cbd4d1c		
+dimspy_missing_values_sample_filter	computational-metabolomics	1	1	763f27eb2d9d		
+dimspy_hdf5_to_txt	computational-metabolomics	1	1	1b254abecb4a		
+dimspy_get_peaklists	computational-metabolomics	1	1	ce1dd96a9ac7		
+dimspy_merge_peaklists	computational-metabolomics	1	1	8edfa0f2b1ea		
+profia	ethevenot	2	2	39ccace77270,de9d1270a9ae		
+metams_rungc	yguitton	3	3	2066efbafd7c,93508ea69eb5,c75532b75ba1		
+nmr_preprocessing	marie-tremblay-metatoul	3	3	122df1bf0a8c,68e2d63bece0,6e837e9352a2		
+nmr_alignment	marie-tremblay-metatoul	2	2	265ee538e120,d690c5ad932f		
+nmr_bucketing	marie-tremblay-metatoul	2	2	1df0b8efe9fc,4d5c06b46c2f		
+batchcorrection	melpetera	3	3	016780b192a6,23314e1192d4,73892ef177e3		
+normalization	marie-tremblay-metatoul	3	3	221cbd549c40,3d00a98974b7,f9554d5bb47e		
+transformation	ethevenot	1	1	cc0e9eff0de2		
+qualitymetrics	ethevenot	3	3	25c9349d1be9,6d3b7b6573d8,acdf51018708		
+withinvariation	yguitton	1	1	5086ad0c0992		
+univariate	ethevenot	2	2	140290de7986,5687435b182c		
+multivariate	ethevenot	2	2	5526f8258e8a,e91de3b04320		
+anova	lecorguille	1	1	102049093b7d		
+mixmodel4repeated_measures	jfrancoismartin	2	2	1422de181204,a3147e3d66e2		
+asca	marie-tremblay-metatoul	1	1	93312041f1d5		
+biosigner	ethevenot	2	2	b2414be87d4b,fa80bd02055f		
+corr_table	melpetera	2	2	2173ad5e7750,b22c453e4cf4		
+heatmap	ethevenot	1	1	b1667c118127		
+hmdb_ms_search	fgiacomoni	3	3	29195cb5d378,453fbe98925a,4eb2de7c24d1		
+bank_inhouse	fgiacomoni	1	1	52798007c6b2		
+lipidmaps_textsearch	fgiacomoni	1	1	f4e6b77c46e3		
+massbank_ws_searchspectrum	fgiacomoni	1	1	023c380900ef		
+lcmsmatching	prog	2	2	f86fec07f392,fb9c0409d85c		
+golm_ws_lib_search	fgiacomoni	2	2	11779b6402bc,28d579fa1718		
+mspurity_spectralmatching	computational-metabolomics	2	2	01cbb99bca13,4db043151468		
+metfrag	computational-metabolomics	2	2	f151ee133612,fd5c0b39569a		
+metfrag_vis	computational-metabolomics	1	1	3dbe79671820		
+sirius_csifingerid	computational-metabolomics	2	2	8dac4cef0a22,9e6bf7278257		
+nmr_annotation	marie-tremblay-metatoul	1	1	0ff2d9211ebe		
+xcms_export_samplemetadata	lecorguille	3	3	4ea32e46b2d6,e13c7bc91c63,f39cd33a73a6		
+generic_filter	melpetera	3	3	12cf1eed21f4,b1fa45bd2b44,cfd7c4aa5c26		
+tablemerge	melpetera	1	1	e44c5246247a		
+checkformat	ethevenot	2	2	b6a6b4cc932a,e7c5811ec12f		
+intensity_checks	melpetera	3	3	2e580585782e,bdee2c2c484b,ec75de7f1e08		
+idchoice	melpetera	2	2	b7a6a88f518a,bb19b1d15732		
+w4mclassfilter	eschen42	7	3	87ec0d3c2266,aae9fa9a7d4d,c18040b6e8b9	191a720488ce,38f509903a0b,649cb1bafd3e,9f5c0e23c205	
+w4mjoinpn	eschen42	1	1	dcfaffec48c8		
+w4mcorcov	eschen42	5	3	2ae2d26e3270,90708fdbc22d,ddaf84e15d06	06c51af11531,ddcc33ff3205	
+msconvert	galaxyp	5	3	28ffaaa5739f,8edfcbf32616,ab6c14374bc0	6153e8ada1ee,9ec469ff191a	
+thermo_raw_file_converter	galaxyp	3	3	19e45916daf9,2d80c8b2dfc2,5c04f9decc01		
+msms_extractor	galaxyp	1	1	4bef80b09854		
+isoplot	workflow4metabolomics	2	2	61c959ebdef5,dd3e046a72ad		
+skyline2isocor	workflow4metabolomics	1	1	cdb4564fcb68		

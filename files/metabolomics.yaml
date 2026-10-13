@@ -1,0 +1,346 @@
+---
+install_repository_dependencies: true
+install_resolver_dependencies: true
+install_tool_dependencies: false
+tools:
+# preprocessing
+## LCMS
+  - name: msnbase_readmsdata
+    owner: lecorguille
+    tool_panel_section_label: Metabolomics
+
+  - name: genform
+    owner: workflow4metabolomics
+    tool_panel_section_label: Metabolomics
+
+  - name: xcms_xcmsset
+    owner: lecorguille
+    tool_panel_section_label: Metabolomics
+
+  - name: xcms_plot_chromatogram
+    owner: lecorguille
+    tool_panel_section_label: Metabolomics
+
+  - name: xcms_merge
+    owner: lecorguille
+    tool_panel_section_label: Metabolomics
+
+  - name: xcms_group
+    owner: lecorguille
+    tool_panel_section_label: Metabolomics
+
+  - name: xcms_refine
+    owner: workflow4metabolomics
+    tool_panel_section_label: Metabolomics
+
+  - name: xcms_retcor
+    owner: lecorguille
+    tool_panel_section_label: Metabolomics
+
+  - name: xcms_fillpeaks
+    owner: lecorguille
+    tool_panel_section_label: Metabolomics
+
+  - name: xcms_summary
+    owner: lecorguille
+    tool_panel_section_label: Metabolomics
+    
+  - name: camera_groupfwhm
+    owner: workflow4metabolomics
+    tool_panel_section_label: Metabolomics
+    
+  - name: camera_groupcorr
+    owner: workflow4metabolomics
+    tool_panel_section_label: Metabolomics
+    
+  - name: camera_findisotopes
+    owner: workflow4metabolomics
+    tool_panel_section_label: Metabolomics
+    
+  - name: camera_findadducts
+    owner: workflow4metabolomics
+    tool_panel_section_label: Metabolomics
+  
+  - name: camera_annotate
+    owner: lecorguille
+    tool_panel_section_label: Metabolomics
+
+  - name: camera_combinexsannos
+    owner: mmonsoor
+    tool_panel_section_label: Metabolomics
+
+  - name: mspurity_flagremove
+    owner: computational-metabolomics
+    tool_panel_section_label: Metabolomics
+
+## MS/MS
+  - name: mspurity_puritya
+    owner: computational-metabolomics
+    tool_panel_section_label: Metabolomics
+
+  - name: mspurity_frag4feature
+    owner: computational-metabolomics
+    tool_panel_section_label: Metabolomics
+
+  - name: mspurity_filterfragspectra
+    owner: computational-metabolomics
+    tool_panel_section_label: Metabolomics
+
+  - name: mspurity_averagefragspectra
+    owner: computational-metabolomics
+    tool_panel_section_label: Metabolomics
+
+  - name: mspurity_createdatabase
+    owner: computational-metabolomics
+    tool_panel_section_label: Metabolomics
+
+  - name: mspurity_createmsp
+    owner: computational-metabolomics
+    tool_panel_section_label: Metabolomics
+
+  - name: mspurity_dimspredictpuritysingle
+    owner: computational-metabolomics
+    tool_panel_section_label: Metabolomics
+
+  - name: mspurity_purityx
+    owner: computational-metabolomics
+    tool_panel_section_label: Metabolomics
+
+## DIMS
+  - name: dimspy_process_scans
+    owner: computational-metabolomics
+    tool_panel_section_label: Metabolomics
+
+  - name: dimspy_replicate_filter
+    owner: computational-metabolomics
+    tool_panel_section_label: Metabolomics
+
+  - name: dimspy_align_samples
+    owner: computational-metabolomics
+    tool_panel_section_label: Metabolomics
+
+  - name: dimspy_blank_filter
+    owner: computational-metabolomics
+    tool_panel_section_label: Metabolomics
+
+  - name: dimspy_sample_filter
+    owner: computational-metabolomics
+    tool_panel_section_label: Metabolomics
+
+  - name: dimspy_missing_values_sample_filter
+    owner: computational-metabolomics
+    tool_panel_section_label: Metabolomics
+
+  - name: dimspy_hdf5_to_txt
+    owner: computational-metabolomics
+    tool_panel_section_label: Metabolomics
+
+  - name: dimspy_get_peaklists
+    owner: computational-metabolomics
+    tool_panel_section_label: Metabolomics
+
+  - name: dimspy_merge_peaklists
+    owner: computational-metabolomics
+    tool_panel_section_label: Metabolomics
+
+
+## FIAMS
+  - name: profia
+    owner: ethevenot
+    tool_panel_section_label: Metabolomics
+
+
+## GCMS
+  - name: metams_rungc
+    owner: yguitton
+    tool_panel_section_label: Metabolomics
+
+
+## NMR
+  - name: nmr_preprocessing
+    owner: marie-tremblay-metatoul
+    tool_panel_section_label: Metabolomics
+
+  - name: nmr_alignment
+    owner: marie-tremblay-metatoul
+    tool_panel_section_label: Metabolomics
+
+  - name: nmr_bucketing
+    owner: marie-tremblay-metatoul
+    tool_panel_section_label: Metabolomics
+
+
+# normalization_quality_control
+## LCMS_FIAMS
+  - name: batchcorrection
+    owner: melpetera
+    tool_panel_section_label: Metabolomics
+
+
+## ALL
+  - name: normalization
+    owner: marie-tremblay-metatoul
+    tool_panel_section_label: Metabolomics
+
+  - name: transformation
+    owner: ethevenot
+    tool_panel_section_label: Metabolomics
+
+  - name: qualitymetrics
+    owner: ethevenot
+    tool_panel_section_label: Metabolomics
+
+  - name: withinvariation
+    owner: yguitton
+    tool_panel_section_label: Metabolomics
+
+
+# statistics
+## ALL
+  - name: univariate
+    owner: ethevenot
+    tool_panel_section_label: Metabolomics
+
+  - name: multivariate
+    owner: ethevenot
+    tool_panel_section_label: Metabolomics
+
+  - name: anova
+    owner: lecorguille
+    tool_panel_section_label: Statistics
+
+  - name: mixmodel4repeated_measures
+    owner: jfrancoismartin
+    tool_panel_section_label: Metabolomics
+
+  - name: asca
+    owner: marie-tremblay-metatoul
+    tool_panel_section_label: Metabolomics
+
+  - name: biosigner
+    owner: ethevenot
+    tool_panel_section_label: Metabolomics
+
+  - name: corr_table
+    owner: melpetera
+    tool_panel_section_label: Metabolomics
+
+  - name: heatmap
+    owner: ethevenot
+    tool_panel_section_label: Metabolomics
+
+
+# annotation
+## LCMS_FIAMS
+  - name: hmdb_ms_search
+    owner: fgiacomoni
+    tool_panel_section_label: Metabolomics
+
+  - name: bank_inhouse
+    owner: fgiacomoni
+    tool_panel_section_label: Metabolomics
+
+  - name: lipidmaps_textsearch
+    owner: fgiacomoni
+    tool_panel_section_label: Metabolomics
+
+  - name: massbank_ws_searchspectrum
+    owner: fgiacomoni
+    tool_panel_section_label: Metabolomics
+
+  - name: lcmsmatching
+    owner: prog
+    tool_panel_section_label: Metabolomics
+
+## LCMS
+#  - name: probmetab
+#    owner: mmonsoor
+#    tool_panel_section_label: Metabolomics
+
+## GCMS
+  - name: golm_ws_lib_search
+    owner: fgiacomoni
+    tool_panel_section_label: Metabolomics
+
+## MS/MS
+  - name: mspurity_spectralmatching
+    owner: computational-metabolomics
+    tool_panel_section_label: Metabolomics
+
+  - name: metfrag
+    owner: computational-metabolomics
+    tool_panel_section_label: Metabolomics
+
+  - name: metfrag_vis
+    owner: computational-metabolomics
+    tool_panel_section_label: Metabolomics
+
+  - name: sirius_csifingerid
+    owner: computational-metabolomics
+    tool_panel_section_label: Metabolomics
+
+## NMR
+  - name: nmr_annotation
+    owner: marie-tremblay-metatoul
+    tool_panel_section_label: Metabolomics
+
+
+# data_handling
+## ALL
+  - name: xcms_export_samplemetadata
+    owner: lecorguille
+    tool_panel_section_label: Metabolomics
+
+  - name: generic_filter
+    owner: melpetera
+    tool_panel_section_label: Metabolomics
+
+  - name: tablemerge
+    owner: melpetera
+    tool_panel_section_label: Metabolomics
+
+  - name: checkformat
+    owner: ethevenot
+    tool_panel_section_label: Metabolomics
+
+  - name: intensity_checks
+    owner: melpetera
+    tool_panel_section_label: Metabolomics
+
+  - name: idchoice
+    owner: melpetera
+    tool_panel_section_label: Metabolomics
+
+  - name: w4mclassfilter
+    owner: eschen42
+    tool_panel_section_label: Metabolomics
+
+  - name: w4mjoinpn
+    owner: eschen42
+    tool_panel_section_label: Metabolomics
+
+  - name: w4mcorcov
+    owner: eschen42
+    tool_panel_section_label: Metabolomics
+
+  - name: msconvert
+    owner: galaxyp
+    tool_panel_section_label: Convert Formats
+
+  - name: thermo_raw_file_converter
+    owner: galaxyp
+    tool_panel_section_label: Convert Formats
+
+  - name: msms_extractor
+    owner: galaxyp
+    tool_panel_section_label: Convert Formats
+
+  - name: isoplot
+    owner: workflow4metabolomics
+    tool_panel_section_label: Metabolomics
+
+  - name: skyline2isocor
+    owner: workflow4metabolomics
+    tool_panel_section_label: Metabolomics
+
+

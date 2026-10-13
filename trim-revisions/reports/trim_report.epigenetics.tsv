@@ -1,0 +1,17 @@
+name	owner	n_before	n_after	kept	removed	warning
+metilene	rnateam	1	1	37abd09a0ae6		
+bismark	bgruening	1	1	9d02cd7883ad		
+bwameth	iuc	11	3	b6b87635cf29,b7c3dcb76c02,b7ce99273d62	29bdbc353f20,62f5fab76dfb,6da3972210ee,95219305823a,a6ea26c1f225,cf1322aeb137,d82648ad25a3,f7094efef903	
+pileometh	bgruening	1	1	ccc755bdf11d		
+hifive	sauria	1	1	cc95aa05f643		
+clusterprofiler_go	kpbioteam	1	1	5299be80cafb		
+clusterprofiler_bitr	kpbioteam	1	1	762c61c71874		
+chipeakanno_annopeaks	kpbioteam	1	1	104882a2de00		
+ewastools	kpbioteam	2	2	369fef559cfc,fef50103f6b3		
+hicup_truncater	bgruening	1	1	cc413be789ea		
+hicup_hicup	bgruening	2	2	68fb19094f84,852e1fac4802		
+hicup_filter	bgruening	1	1	2d4a34c00c67		
+hicup_digester	bgruening	1	1	e79c38f1752c		
+hicup_deduplicator	bgruening	1	1	2107c2f7a5d7		
+hicup_mapper	bgruening	1	1	be104dee2833		
+hicup2juicer	bgruening	2	2	b4e7244246e2,f8cb84c49623		

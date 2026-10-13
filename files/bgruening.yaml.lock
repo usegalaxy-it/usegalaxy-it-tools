@@ -1,0 +1,1346 @@
+install_repository_dependencies: false
+install_resolver_dependencies: false
+install_tool_dependencies: false
+tools:
+- name: biomodels_biomd0000001066
+  owner: bgruening
+  revisions:
+  - 48024c5a155f
+  tool_panel_section_label: Machine Learning
+- name: biomodels_biomd0000001076
+  owner: bgruening
+  revisions:
+  - e62e31ee42d9
+  tool_panel_section_label: Machine Learning
+- name: cleanlab
+  owner: bgruening
+  revisions:
+  - 462b5bc27acd
+  tool_panel_section_label: Machine Learning
+- name: glimmer_glimmer_to_gff
+  owner: bgruening
+  revisions:
+  - 3d71ab1562d7
+  - 891b330ffd94
+  tool_panel_section_label: Convert Formats
+- name: graphicsmagick_image_convert
+  owner: bgruening
+  revisions:
+  - 0ecf92b5a7c5
+  - 54c9a136e24f
+  - 8f46605c84ec
+  tool_panel_section_label: Convert Formats
+- name: graphicsmagick_image_montage
+  owner: bgruening
+  revisions:
+  - 601575b847c0
+  - 77f67ddd89d6
+  - ab55af10f1ff
+  tool_panel_section_label: Convert Formats
+- name: graphicsmagick_image_compare
+  owner: bgruening
+  revisions:
+  - 19cd03398db8
+  - 76acb1175c57
+  - 8fa7b6892af5
+  tool_panel_section_label: Convert Formats
+- name: ffmpeg_converter
+  owner: bgruening
+  revisions:
+  - 288f703056b0
+  - 62f5a8b130db
+  tool_panel_section_label: Convert Formats
+- name: hictk
+  owner: bgruening
+  revisions:
+  - 6ea4b941a15b
+  - af0d9df0641e
+  - d6b28a54592a
+  tool_panel_section_label: Convert Formats
+- name: markitdown
+  owner: bgruening
+  revisions:
+  - 4926706c13db
+  - 4b5f897760d4
+  - f6fa7e70120f
+  tool_panel_section_label: Convert Formats
+- name: uniprot_rest_interface
+  owner: bgruening
+  revisions:
+  - 60f7e2a6b9c7
+  - 95fb5712344f
+  - bf5121c5c2be
+  tool_panel_section_label: Convert Formats
+- name: mirge3_build_database
+  owner: bgruening
+  revisions:
+  - f27ca8442e03
+- name: grapetree
+  owner: bgruening
+  revisions:
+  - 0b8ee9e94254
+  tool_panel_section_label: Phylogenetics
+- name: cleaverna
+  owner: bgruening
+  revisions:
+  - 93fd85d2d76b
+  tool_panel_section_label: RNA Analysis
+- name: mirge3
+  owner: bgruening
+  revisions:
+  - 3804460f5ba8
+  tool_panel_section_label: RNA Analysis
+- name: tdrmapper
+  owner: bgruening
+  revisions:
+  - 8dd4a71b532b
+  tool_panel_section_label: RNA Analysis
+- name: mirtrace_qc
+  owner: bgruening
+  revisions:
+  - 87d890a8b052
+  tool_panel_section_label: RNA Analysis
+- name: mirtrace_trace
+  owner: bgruening
+  revisions:
+  - e4ab7ccdda9d
+  tool_panel_section_label: RNA Analysis
+- name: viennarna_rnaup
+  owner: rnateam
+  revisions:
+  - a34eee6e1d04
+  tool_panel_section_label: RNA Analysis
+- name: viennarna_rnasubopt
+  owner: rnateam
+  revisions:
+  - 7bd1645d1dcf
+  tool_panel_section_label: RNA Analysis
+- name: viennarna_rnasnoop
+  owner: rnateam
+  revisions:
+  - 533c90fa0daf
+  tool_panel_section_label: RNA Analysis
+- name: viennarna_rnaplot
+  owner: rnateam
+  revisions:
+  - 41a4cd735a68
+  tool_panel_section_label: RNA Analysis
+- name: viennarna_rnaplfold
+  owner: rnateam
+  revisions:
+  - a3b1dde222e9
+  tool_panel_section_label: RNA Analysis
+- name: viennarna_rnaplex
+  owner: rnateam
+  revisions:
+  - 246923437e34
+  tool_panel_section_label: RNA Analysis
+- name: viennarna_rnapkplex
+  owner: rnateam
+  revisions:
+  - fe3336eb65d2
+  tool_panel_section_label: RNA Analysis
+- name: viennarna_rnapaln
+  owner: rnateam
+  revisions:
+  - 7b71768a203b
+  tool_panel_section_label: RNA Analysis
+- name: viennarna_rnalfold
+  owner: rnateam
+  revisions:
+  - 52c4b54a1dc8
+  tool_panel_section_label: RNA Analysis
+- name: viennarna_rnalalifold
+  owner: rnateam
+  revisions:
+  - d92c6b94bec8
+  tool_panel_section_label: RNA Analysis
+- name: viennarna_rnainverse
+  owner: rnateam
+  revisions:
+  - 704d4b7491bb
+  tool_panel_section_label: RNA Analysis
+- name: viennarna_rnaheat
+  owner: rnateam
+  revisions:
+  - e584043a5687
+  tool_panel_section_label: RNA Analysis
+- name: viennarna_rnafold
+  owner: rnateam
+  revisions:
+  - 20418b54b380
+  tool_panel_section_label: RNA Analysis
+- name: viennarna_rnaeval
+  owner: rnateam
+  revisions:
+  - 0f4d8fcfd252
+  tool_panel_section_label: RNA Analysis
+- name: viennarna_rnaduplex
+  owner: rnateam
+  revisions:
+  - 7a560e7ef617
+  tool_panel_section_label: RNA Analysis
+- name: viennarna_rnadpdist
+  owner: rnateam
+  revisions:
+  - 3a517bbe7d68
+  tool_panel_section_label: RNA Analysis
+- name: viennarna_rnadistance
+  owner: rnateam
+  revisions:
+  - 83e87592e27f
+  tool_panel_section_label: RNA Analysis
+- name: viennarna_rnacofold
+  owner: rnateam
+  revisions:
+  - 850f9d8e457f
+  tool_panel_section_label: RNA Analysis
+- name: viennarna_rnaalifold
+  owner: rnateam
+  revisions:
+  - d4e31df19b2e
+  tool_panel_section_label: RNA Analysis
+- name: viennarna_rnaaliduplex
+  owner: rnateam
+  revisions:
+  - 8c87ec6a04af
+  tool_panel_section_label: RNA Analysis
+- name: viennarna_rna2dfold
+  owner: rnateam
+  revisions:
+  - 5876fc3d059a
+  tool_panel_section_label: RNA Analysis
+- name: viennarna_kinwalker
+  owner: rnateam
+  revisions:
+  - 7924445bea94
+  tool_panel_section_label: RNA Analysis
+- name: viennarna_kinfold
+  owner: rnateam
+  revisions:
+  - c152e20cfced
+  tool_panel_section_label: RNA Analysis
+- name: sambamba_flagstat
+  owner: bgruening
+  revisions:
+  - ce3927af5a8f
+  - cfd6e76541ff
+  tool_panel_section_label: SAM/BAM
+- name: sambamba_markdup
+  owner: bgruening
+  revisions:
+  - 6c916a5a6afb
+  - a348429b6fec
+  tool_panel_section_label: SAM/BAM
+- name: sambamba_merge
+  owner: bgruening
+  revisions:
+  - 480c9d4c8957
+  - 66a7ee77d7e3
+  tool_panel_section_label: SAM/BAM
+- name: sambamba_sort
+  owner: bgruening
+  revisions:
+  - 6aa99e436263
+  - 87c1b543c4c4
+  tool_panel_section_label: SAM/BAM
+- name: antismash
+  owner: bgruening
+  revisions:
+  - bc88856eddab
+  - e78e25d3b4bd
+  tool_panel_section_label: Annotation
+- name: agat
+  owner: bgruening
+  revisions:
+  - 6d8be3337e2a
+  - d6ede73082da
+  - e7449b2c14bf
+  tool_panel_section_label: Annotation
+- name: confindr
+  owner: bgruening
+  revisions:
+  - 197e465c8164
+  tool_panel_section_label: Annotation
+- name: cpat
+  owner: bgruening
+  revisions:
+  - 1ac12c0cc7a0
+  - 7ccc6234b54e
+  - 8e9e228c54c4
+  tool_panel_section_label: Annotation
+- name: edta
+  owner: bgruening
+  revisions:
+  - f1a157358d4d
+  tool_panel_section_label: Annotation
+- name: kat_gcp
+  owner: bgruening
+  revisions:
+  - 8df9fb2afab7
+  tool_panel_section_label: Annotation
+- name: kat_comp
+  owner: bgruening
+  revisions:
+  - 4276358f3e1c
+  tool_panel_section_label: Annotation
+- name: kat_hist
+  owner: bgruening
+  revisions:
+  - f857831b26f0
+  tool_panel_section_label: Annotation
+- name: kat_sect
+  owner: bgruening
+  revisions:
+  - bf55d2b3728c
+  tool_panel_section_label: Annotation
+- name: kat_filter_seq
+  owner: bgruening
+  revisions:
+  - 9dfc749e8eed
+  tool_panel_section_label: Annotation
+- name: kat_filter_kmer
+  owner: bgruening
+  revisions:
+  - 6410f0530bc7
+  tool_panel_section_label: Annotation
+- name: kat_cold
+  owner: bgruening
+  revisions:
+  - 2ad6adc8d45f
+  tool_panel_section_label: Annotation
+- name: lissero
+  owner: bgruening
+  revisions:
+  - 551f099de534
+  tool_panel_section_label: Annotation
+- name: logan_protein_embed_query
+  owner: bgruening
+  revisions:
+  - 1b7b718cc379
+  - 6a1fc5577695
+  - e1edf9018e4d
+  tool_panel_section_label: Annotation
+- name: logan_protein_search_database
+  owner: bgruening
+  revisions:
+  - 03bc0b982ec9
+  - 478817e06e95
+  - e69fb0e5dc0e
+  tool_panel_section_label: Annotation
+- name: netboxr
+  owner: bgruening
+  revisions:
+  - 785ed8621503
+  tool_panel_section_label: Annotation
+- name: pfamscan
+  owner: bgruening
+  revisions:
+  - 15cff34c2005
+  tool_panel_section_label: Annotation
+- name: psortb
+  owner: bgruening
+  revisions:
+  - b97ecda36fc4
+  tool_panel_section_label: Annotation
+- name: tapscan
+  owner: bgruening
+  revisions:
+  - 196795831b6a
+  - c4f865bd101a
+  tool_panel_section_label: Annotation
+- name: sortmerna
+  owner: rnateam
+  revisions:
+  - 10b84b577117
+  tool_panel_section_label: Annotation
+- name: blobtoolkit
+  owner: bgruening
+  revisions:
+  - 1eb9b32f7096
+  - 54a68f38cf3f
+  - 81bc4c8bcf10
+  tool_panel_section_label: Assembly
+- name: canu
+  owner: bgruening
+  revisions:
+  - 86f150c8019d
+  - e05f5ee0ffb9
+  tool_panel_section_label: Assembly
+- name: flye
+  owner: bgruening
+  revisions:
+  - 13e27b9094e8
+  - 1f0769f0b56b
+  - 643e0ff70be5
+  tool_panel_section_label: Assembly
+- name: instagraal
+  owner: bgruening
+  revisions:
+  - 5c11b91a76dc
+  - d1be552c6034
+  tool_panel_section_label: Assembly
+- name: minipolish
+  owner: bgruening
+  revisions:
+  - 1f9f2edc8cf4
+  - 45d0307149b4
+  - bdfd7cef3438
+  tool_panel_section_label: Assembly
+- name: mitohifi
+  owner: bgruening
+  revisions:
+  - 2853471f753d
+  - 3fc33af5d9e2
+  - bfab6f5b449d
+  tool_panel_section_label: Assembly
+- name: nextdenovo
+  owner: bgruening
+  revisions:
+  - 733eab97b979
+  tool_panel_section_label: Assembly
+- name: pecat
+  owner: bgruening
+  revisions:
+  - cafed695937c
+  tool_panel_section_label: Assembly
+- name: racon
+  owner: bgruening
+  revisions:
+  - 39bed8de8017
+  - 78c533842eeb
+  - d865b62f501c
+  tool_panel_section_label: Assembly
+- name: reago
+  owner: bgruening
+  revisions:
+  - 13dd84cab09e
+  tool_panel_section_label: Assembly
+- name: tgsgapcloser
+  owner: bgruening
+  revisions:
+  - 86fa46d3ce2e
+  tool_panel_section_label: Assembly
+- name: wtdbg
+  owner: bgruening
+  revisions:
+  - 2668027a533b
+  tool_panel_section_label: Assembly
+- name: erga_ear
+  owner: bgruening
+  revisions:
+  - 3dd6be0cd8dd
+  - a34826ae0a73
+  - b61022e1b807
+  tool_panel_section_label: Assembly
+- name: split_file_to_collection
+  owner: bgruening
+  revisions:
+  - 2dae863c8f42
+  - 6cbe2f30c2d7
+  - baabc30154cd
+  tool_panel_section_label: Collection Operations
+- name: kraken_binarize
+  owner: bgruening
+  revisions:
+  - 0c7d25f70464
+  - b68a6a9e41c6
+  - d62a46e0b96a
+  tool_panel_section_label: Digital Humanities
+- name: kraken_segment
+  owner: bgruening
+  revisions:
+  - 2636023251c7
+  - 364af058ce2f
+  - fcdc6309be5b
+  tool_panel_section_label: Digital Humanities
+- name: kraken_ocr
+  owner: bgruening
+  revisions:
+  - 3acf99e9d32d
+  - 6aeba5b6462e
+  - 95abbf80c7e6
+  tool_panel_section_label: Digital Humanities
+- name: langchain_text_splitters
+  owner: bgruening
+  revisions:
+  - f8cdbaef8b95
+  tool_panel_section_label: Digital Humanities
+- name: new_fave_extract
+  owner: bgruening
+  revisions:
+  - 0b2e408b0c99
+  - c66b96e557ea
+  tool_panel_section_label: Digital Humanities
+- name: ketos_compile
+  owner: bgruening
+  revisions:
+  - b3ffbfdac05d
+  tool_panel_section_label: Digital Humanities
+- name: ketos_train
+  owner: bgruening
+  revisions:
+  - c01192ccb067
+  tool_panel_section_label: Digital Humanities
+- name: gfastats
+  owner: bgruening
+  revisions:
+  - 0fe699ced54f
+  - 10dc0f5a82e2
+  - 59150c883ed5
+  tool_panel_section_label: FASTA/FASTQ
+- name: trim_galore
+  owner: bgruening
+  revisions:
+  - b94789823aad
+  - cd7e644cae1d
+  - eefb644655a5
+  tool_panel_section_label: FASTA/FASTQ
+- name: mgnify_seqprep
+  owner: bgruening
+  revisions:
+  - 76ea9d4604bc
+  tool_panel_section_label: FASTA/FASTQ
+- name: mavedb_importer
+  owner: bgruening
+  revisions:
+  - c82b0ff7ed3d
+  tool_panel_section_label: Get Data
+- name: 3dtrees_segmentanytree
+  owner: bgruening
+  revisions:
+  - 2428651639f8
+  - ae6e0f77b759
+  - f50d96aaa1f5
+  tool_panel_section_label: GIS Data Handling
+- name: 3dtrees_detailview
+  owner: bgruening
+  revisions:
+  - 42e755abe831
+  - 51bb974cfbb2
+  - a4e765e5398e
+  tool_panel_section_label: GIS Data Handling
+- name: 3dtrees_standardization
+  owner: bgruening
+  revisions:
+  - e36c4b5d5cd9
+  - e83d551e7b8c
+  - f9838a5ffb16
+  tool_panel_section_label: GIS Data Handling
+- name: 3dtrees_tile_merge
+  owner: bgruening
+  revisions:
+  - 01b7fd5cb554
+  - 0fc9eb527dfb
+  - 7d07b4127574
+  tool_panel_section_label: GIS Data Handling
+- name: 3dtrees_overviews
+  owner: bgruening
+  revisions:
+  - 049c348797e9
+  - 223579743e9f
+  - e0f7a18a1db4
+  tool_panel_section_label: GIS Data Handling
+- name: 3dtrees_smart_tile
+  owner: bgruening
+  revisions:
+  - 00cea46531c5
+  - 16ce20a0ff3f
+  - b05456e47259
+  tool_panel_section_label: GIS Data Handling
+- name: 3dtrees_py3dtiles
+  owner: bgruening
+  revisions:
+  - ecbb700489af
+  tool_panel_section_label: GIS Data Handling
+- name: 3dtrees_potree
+  owner: bgruening
+  revisions:
+  - 0c99fafe841d
+  - a5b16cf86c02
+  - a9559f8990b9
+  tool_panel_section_label: GIS Data Handling
+- name: 3dtrees_raycloudtools
+  owner: bgruening
+  revisions:
+  - 237b54837e85
+  - a5cc4a0173bf
+  - e9480f1a724e
+  tool_panel_section_label: GIS Data Handling
+- name: 3dtrees_forestmamba
+  owner: bgruening
+  revisions:
+  - ab9b0561b285
+  tool_panel_section_label: GIS Data Handling
+- name: 3dtrees_metadata
+  owner: bgruening
+  revisions:
+  - d3cff3f1ff4e
+  tool_panel_section_label: GIS Data Handling
+- name: datavzrd
+  owner: bgruening
+  revisions:
+  - f61acf355127
+  tool_panel_section_label: Graph/Display Data
+- name: jbrowse2
+  owner: fubar
+  revisions:
+  - bd903fbbc26e
+  - dd032687675c
+  - e237edee9a53
+  tool_panel_section_label: Graph/Display Data
+- name: plotly_ml_performance_plots
+  owner: bgruening
+  revisions:
+  - 1c5dcef5ce0f
+  - 62e3a4e8c54c
+  - f234e2e59d76
+  tool_panel_section_label: Graph/Display Data
+- name: plotly_regression_performance_plots
+  owner: bgruening
+  revisions:
+  - 389227fa1864
+  tool_panel_section_label: Graph/Display Data
+- name: wordcloud
+  owner: bgruening
+  revisions:
+  - 45c4cc885ddb
+  - 6055ffae8903
+  - 7b583659453b
+  tool_panel_section_label: Graph/Display Data
+- name: cellpose
+  owner: bgruening
+  revisions:
+  - 5251ce4c4a11
+  - 6b840482cc25
+  - d54f702c8909
+  tool_panel_section_label: Imaging
+- name: cellposesam
+  owner: bgruening
+  revisions:
+  - 48fe4ddcaeeb
+  - bc1410a8a247
+  tool_panel_section_label: Imaging
+- name: coco2labelme
+  owner: bgruening
+  revisions:
+  - 3a9709a4df77
+  tool_panel_section_label: Imaging
+- name: bioimage_inference
+  owner: bgruening
+  revisions:
+  - 000f171afabb
+  - 4fd6e8b051e9
+  - d5233b9d32bb
+  tool_panel_section_label: Imaging
+- name: coco_annotation_visualizer
+  owner: bgruening
+  revisions:
+  - 7b390f574967
+  tool_panel_section_label: Imaging
+- name: imagemagick_image_convert
+  owner: bgruening
+  revisions:
+  - 9bb86931b7b1
+  tool_panel_section_label: Imaging
+- name: imagemagick_image_compare
+  owner: bgruening
+  revisions:
+  - 12eee3d3877e
+  tool_panel_section_label: Imaging
+- name: sem_analysis
+  owner: bgruening
+  revisions:
+  - be9e15ecdbae
+  tool_panel_section_label: Imaging
+- name: woundhealing_scratch_assay
+  owner: bgruening
+  revisions:
+  - 6b341a048c2e
+  - 8948cc562b7c
+  tool_panel_section_label: Imaging
+- name: doclayoutyolo
+  owner: bgruening
+  revisions:
+  - 28b4dc80d58b
+  - 55c96140ab72
+  tool_panel_section_label: Imaging
+- name: edit_coco_annotation
+  owner: bgruening
+  revisions:
+  - b702f65d511e
+  tool_panel_section_label: Imaging
+- name: json2yolosegment
+  owner: bgruening
+  revisions:
+  - 2e6ca212a1af
+  - 7db48c618bbe
+  - fe95917c3e20
+  tool_panel_section_label: Imaging
+- name: yolo_predict
+  owner: bgruening
+  revisions:
+  - 3e9d14e5942f
+  - d77c67cfe2ca
+  - e708a1191202
+  tool_panel_section_label: Imaging
+- name: yolo_training
+  owner: bgruening
+  revisions:
+  - 5cc588ef3793
+  - ad05e90d024b
+  - ece3536c5e0e
+  tool_panel_section_label: Imaging
+- name: imagemagick_image_montage
+  owner: bgruening
+  revisions:
+  - fc43cdc81408
+  tool_panel_section_label: Imaging
+- name: keras_batch_models
+  owner: bgruening
+  revisions:
+  - 1252578525d1
+  - 3b8fa4ea9727
+  - ab2372b0d73d
+  tool_panel_section_label: Machine Learning
+- name: keras_model_builder
+  owner: bgruening
+  revisions:
+  - 98aeca624881
+  - e4af79bffd57
+  - fe0e82a7d0ee
+  tool_panel_section_label: Machine Learning
+- name: keras_model_config
+  owner: bgruening
+  revisions:
+  - 00b2ee48b412
+  - 00d1889e9ecc
+  - 08b52ffcd2b4
+  tool_panel_section_label: Machine Learning
+- name: keras_train_and_eval
+  owner: bgruening
+  revisions:
+  - 19407b7f815c
+  - 31f6bf2382dc
+  - 6ecb3d77d46e
+  tool_panel_section_label: Machine Learning
+- name: ml_visualization_ex
+  owner: bgruening
+  revisions:
+  - 1d2a478bb514
+  - 21730620a849
+  - 9276346ed061
+  tool_panel_section_label: Machine Learning
+- name: model_prediction
+  owner: bgruening
+  revisions:
+  - 3dd539570a60
+  - b6c2289292fa
+  - eae46976fbb8
+  tool_panel_section_label: Machine Learning
+- name: sklearn_build_pipeline
+  owner: bgruening
+  revisions:
+  - 43a859a0fab5
+  - 78eb20e5bdd3
+  - bc0117538945
+  tool_panel_section_label: Machine Learning
+- name: sklearn_clf_metrics
+  owner: bgruening
+  revisions:
+  - 048d7bd59326
+  - 85f43dfa9ad3
+  - a0061a087409
+  tool_panel_section_label: Machine Learning
+- name: sklearn_data_preprocess
+  owner: bgruening
+  revisions:
+  - 191eac3065de
+  - dde13d557dc4
+  - f2234165a453
+  tool_panel_section_label: Machine Learning
+- name: sklearn_discriminant_classifier
+  owner: bgruening
+  revisions:
+  - 4ee087eeda62
+  - dea38330b78a
+  - e81b336415c8
+  tool_panel_section_label: Machine Learning
+- name: sklearn_ensemble
+  owner: bgruening
+  revisions:
+  - 00f01f713c3c
+  - 0dd932943362
+  - cab63604ca1d
+  tool_panel_section_label: Machine Learning
+- name: sklearn_estimator_attributes
+  owner: bgruening
+  revisions:
+  - 0a43c856e1d8
+  - 3881482e568e
+  - fb9782000c55
+  tool_panel_section_label: Machine Learning
+- name: sklearn_feature_selection
+  owner: bgruening
+  revisions:
+  - 5bcf779d901f
+  - 9e0e31bd8392
+  - dd786bc16fdb
+  tool_panel_section_label: Machine Learning
+- name: sklearn_fitted_model_eval
+  owner: bgruening
+  revisions:
+  - 9a3cb21a3661
+  - a9d72bfe33c9
+  - e8694d796a7e
+  tool_panel_section_label: Machine Learning
+- name: sklearn_generalized_linear
+  owner: bgruening
+  revisions:
+  - 57938c2f6ef5
+  - 84dad16ed802
+  - d3fe6fcc6bf4
+  tool_panel_section_label: Machine Learning
+- name: sklearn_label_encoder
+  owner: bgruening
+  revisions:
+  - 1e006ebbcaf5
+  - 549937c7349c
+  - ac52a5916963
+  tool_panel_section_label: Machine Learning
+- name: sklearn_lightgbm
+  owner: bgruening
+  revisions:
+  - 16c442ecd6bf
+  - a46f6d5ea764
+  - f04f39a6825d
+  tool_panel_section_label: Machine Learning
+- name: sklearn_model_fit
+  owner: bgruening
+  revisions:
+  - 9084156b2bb5
+  - a293d7937700
+  - cde5fc214cc8
+  tool_panel_section_label: Machine Learning
+- name: sklearn_model_validation
+  owner: bgruening
+  revisions:
+  - 7e5631773cea
+  - 845dfafac355
+  - afa146d816e9
+  tool_panel_section_label: Machine Learning
+- name: sklearn_nn_classifier
+  owner: bgruening
+  revisions:
+  - 0c612f257a48
+  - 187226dceb22
+  - 900c42c3eef4
+  tool_panel_section_label: Machine Learning
+- name: sklearn_numeric_clustering
+  owner: bgruening
+  revisions:
+  - 1bdac8249aa1
+  - 2468c4e3baed
+  - 86d4c2b66e16
+  tool_panel_section_label: Machine Learning
+- name: sklearn_pairwise_metrics
+  owner: bgruening
+  revisions:
+  - 23a37a52a899
+  - 3ff43fbb7ccf
+  - df87a7702f97
+  tool_panel_section_label: Machine Learning
+- name: sklearn_pca
+  owner: bgruening
+  revisions:
+  - 8a82f0a52e73
+  - c716b8c86c5d
+  - fbf485fc2d30
+  tool_panel_section_label: Machine Learning
+- name: sklearn_regression_metrics
+  owner: bgruening
+  revisions:
+  - 31fca3ff2a46
+  - 4e6ada84d334
+  - c78a5fc9e758
+  tool_panel_section_label: Machine Learning
+- name: sklearn_sample_generator
+  owner: bgruening
+  revisions:
+  - 04b160a26690
+  - 6cf2a66c46f1
+  - e6af850a1675
+  tool_panel_section_label: Machine Learning
+- name: sklearn_searchcv
+  owner: bgruening
+  revisions:
+  - 5023535e9f8b
+  - 9a01835cdead
+  - f484f41ea0dd
+  tool_panel_section_label: Machine Learning
+- name: sklearn_stacking_ensemble_models
+  owner: bgruening
+  revisions:
+  - 59f53bbe6ba9
+  - 9ec25da5ece0
+  - b94babda32e4
+  tool_panel_section_label: Machine Learning
+- name: sklearn_svm_classifier
+  owner: bgruening
+  revisions:
+  - 4aa3666b66fa
+  - 61461e52c923
+  - df690bb42687
+  tool_panel_section_label: Machine Learning
+- name: sklearn_to_categorical
+  owner: bgruening
+  revisions:
+  - 791fa244e44d
+  - 89f11e2b0673
+  - f86c0419af43
+  tool_panel_section_label: Machine Learning
+- name: sklearn_train_test_eval
+  owner: bgruening
+  revisions:
+  - 418cafc53f8e
+  - a0b0f3158c8c
+  - b3a4682eabb6
+  tool_panel_section_label: Machine Learning
+- name: sklearn_train_test_split
+  owner: bgruening
+  revisions:
+  - 6f7e3901728d
+  - e8e5736b632d
+  - fc0f9ba14aaa
+  tool_panel_section_label: Machine Learning
+- name: tabicl
+  owner: bgruening
+  revisions:
+  - bdc50ee513ac
+  tool_panel_section_label: Machine Learning
+- name: tabpfn
+  owner: bgruening
+  revisions:
+  - 522baf0458d8
+  - ec6df5e22055
+  - f0c7f0bad621
+  tool_panel_section_label: Machine Learning
+- name: tabicl
+  owner: bgruening
+  revisions:
+  - bdc50ee513ac
+  tool_panel_section_label: Machine Learning
+- name: whisper
+  owner: bgruening
+  revisions:
+  - 02fa7b2245e6
+  tool_panel_section_label: Machine Learning
+- name: whisperx
+  owner: bgruening
+  revisions:
+  - 01b0fcc50e74
+  tool_panel_section_label: Machine Learning
+- name: flexynesis
+  owner: bgruening
+  revisions:
+  - 6eb6d8e78d06
+  - d1dc88960179
+  - e0a67265f3ed
+  tool_panel_section_label: Machine Learning
+- name: flexynesis_cbioportal_import
+  owner: bgruening
+  revisions:
+  - 461b8e2d79d5
+  - 9c320e113a6d
+  - e6c626b3013b
+  tool_panel_section_label: Machine Learning
+- name: flexynesis_infer
+  owner: bgruening
+  revisions:
+  - 7a1bae3c974a
+  - f4fa010a53dd
+  tool_panel_section_label: Machine Learning
+- name: flexynesis_plot
+  owner: bgruening
+  revisions:
+  - 5f69690716cb
+  - 91d550761220
+  - a9d1fe48e1e6
+  tool_panel_section_label: Machine Learning
+- name: flexynesis_utils
+  owner: bgruening
+  revisions:
+  - 0e86b191f856
+  - 88244f1bdfcf
+  - c348c91a487d
+  tool_panel_section_label: Machine Learning
+- name: chatgpt_openai_api
+  owner: bgruening
+  revisions:
+  - 7770a4bd42e2
+  - afa2cbe1a96a
+  - dab494dce303
+  tool_panel_section_label: Machine Learning
+- name: llm_hub
+  owner: bgruening
+  revisions:
+  - 3834a8fbfaf2
+  - 4d4abba5404b
+  - 8ff5515316d9
+  tool_panel_section_label: Machine Learning
+- name: rag_retriever
+  owner: bgruening
+  revisions:
+  - 17a8d7cc176b
+  - 1da5c7994686
+  - bcaf26934b58
+  tool_panel_section_label: Machine Learning
+- name: black_forest_labs_flux
+  owner: bgruening
+  revisions:
+  - 21ee409e6cde
+  - 3e22bda128be
+  - 7939ae8c5fd5
+  tool_panel_section_label: Machine Learning
+- name: simorgh
+  owner: bgruening
+  revisions:
+  - 1a89c543a9fa
+  - 3c4b90211d4b
+  - 7cbaa6fd99e8
+  tool_panel_section_label: Machine Learning
+- name: graphmap_align
+  owner: bgruening
+  revisions:
+  - 1c6c961851de
+  tool_panel_section_label: Mapping
+- name: graphmap_overlap
+  owner: bgruening
+  revisions:
+  - 815251b32ccc
+  tool_panel_section_label: Mapping
+- name: parabricks_fq2bam
+  owner: bgruening
+  revisions:
+  - 88f29982dad3
+  - 9e83243823d9
+  - cd355aa0bbcf
+  tool_panel_section_label: Mapping
+- name: search_protein_embed_query
+  owner: bgruening
+  revisions:
+  - f8645e707fd8
+  tool_panel_section_label: NCBI Blast
+- name: search_protein_search_database
+  owner: bgruening
+  revisions:
+  - 6083fd50e6a3
+  tool_panel_section_label: NCBI Blast
+- name: carveme
+  owner: bgruening
+  revisions:
+  - 6167704e1d34
+  tool_panel_section_label: Metabolomics
+- name: combine_metaphlan2_humann2
+  owner: bebatut
+  revisions:
+  - 662a334004b4
+  - fdfb35745104
+  tool_panel_section_label: Metagenomic Analysis
+- name: compare_humann2_output
+  owner: bebatut
+  revisions:
+  - 844fcd42ec7c
+  tool_panel_section_label: Metagenomic Analysis
+- name: format_cd_hit_output
+  owner: bebatut
+  revisions:
+  - 64da677bcee2
+  tool_panel_section_label: Multiple Alignments
+- name: format_metaphlan2_output
+  owner: bebatut
+  revisions:
+  - 2c87f56bd53a
+  tool_panel_section_label: Metagenomic Analysis
+- name: itsx
+  owner: bgruening
+  revisions:
+  - 2cbd0d66aa08
+  tool_panel_section_label: Metagenomic Analysis
+- name: motus
+  owner: bgruening
+  revisions:
+  - b2b7a3897ef6
+  - d20f3b9a59a2
+  tool_panel_section_label: Metagenomic Analysis
+- name: data_manager_motus
+  owner: bgruening
+  revisions:
+  - 27bce4678358
+  - 603939ba21ec
+  - c153e8dd94ad
+- name: sylph_query
+  owner: bgruening
+  revisions:
+  - d2a4c2cb8779
+  tool_panel_section_label: Metagenomic Analysis
+- name: sylph_profile
+  owner: bgruening
+  revisions:
+  - 6c1ac7640090
+  tool_panel_section_label: Metagenomic Analysis
+- name: data_manager_sylph_database
+  owner: bgruening
+  revisions:
+  - 130224fe2d18
+- name: data_manager_sylph_tax_database
+  owner: bgruening
+  revisions:
+  - 7862ca465c6b
+  - 8208bd6b2283
+- name: tiara
+  owner: bgruening
+  revisions:
+  - 3f33a8ac8891
+  - 66058890173e
+  - 95b0a646932e
+  tool_panel_section_label: Metagenomic Analysis
+- name: qiime2_dbotu_q2
+  owner: bgruening
+  revisions:
+  - f0454b7881f4
+  tool_panel_section_label: Metagenomic Analysis
+- name: vrhyme
+  owner: bgruening
+  revisions:
+  - 0fccc65dcb0b
+  - b7edb37100af
+  tool_panel_section_label: Metagenomic Analysis
+- name: kmetashot
+  owner: bgruening
+  revisions:
+  - 3ee493cd606c
+  tool_panel_section_label: Metagenomic Analysis
+- name: kmetashot_build_database
+  owner: bgruening
+  revisions:
+  - 22847889f95e
+  tool_panel_section_label: Metagenomic Analysis
+- name: mafft
+  owner: rnateam
+  revisions:
+  - 0a507f4bd19a
+  - 1233363389c1
+  - 8e649f27aa0d
+  tool_panel_section_label: Multiple Alignments
+- name: nanopolish_eventalign
+  owner: bgruening
+  revisions:
+  - 3b6f94fc7e1d
+  - 85a394edc247
+  - d219b6d8158a
+  tool_panel_section_label: Nanopore
+- name: nanopolish_methylation
+  owner: bgruening
+  revisions:
+  - 90a922f32523
+  - a8d4be409446
+  - be95355fef8d
+  tool_panel_section_label: Nanopore
+- name: nanopolish_polya
+  owner: bgruening
+  revisions:
+  - 449e9aeded2d
+  - 4857d5bcce52
+  - d376944466bf
+  tool_panel_section_label: Nanopore
+- name: nanopolish_variants
+  owner: bgruening
+  revisions:
+  - a3afc5f0a96c
+  - bec636361cfd
+  - de5b3d8f5b90
+  tool_panel_section_label: Nanopore
+- name: pynxtools_peak_finding
+  owner: bgruening
+  revisions:
+  - 0a6a35172776
+  tool_panel_section_label: Other Tools
+- name: stress_ng
+  owner: bgruening-util
+  revisions:
+  - 254cd55c9900
+  tool_panel_section_label: Other Tools
+- name: dewseq
+  owner: rnateam
+  revisions:
+  - e1cb2e012307
+  tool_panel_section_label: Peak Calling
+- name: htseq_clip
+  owner: rnateam
+  revisions:
+  - c82c41550f82
+  tool_panel_section_label: Peak Calling
+- name: fastq_info
+  owner: bgruening
+  revisions:
+  - 7a821cd57b43
+  tool_panel_section_label: Quality Control
+- name: 10x_bamtofastq
+  owner: bgruening
+  revisions:
+  - f71fd828c126
+  tool_panel_section_label: Single-cell
+- name: doubletfinder
+  owner: bgruening
+  revisions:
+  - 8e8ed8d84e02
+  tool_panel_section_label: Single-cell
+- name: music_compare
+  owner: bgruening
+  revisions:
+  - 10bf0f89035f
+  - d817b3807562
+  tool_panel_section_label: Single-cell
+- name: music_construct_eset
+  owner: bgruening
+  revisions:
+  - 48f0fb3061b1
+  - 7902cd31b9b5
+  - 7ffaa0968da3
+  tool_panel_section_label: Single-cell
+- name: music_deconvolution
+  owner: bgruening
+  revisions:
+  - 56371b5a2da9
+  - 8cd2ecfa2e61
+  tool_panel_section_label: Single-cell
+- name: music_inspect_eset
+  owner: bgruening
+  revisions:
+  - 577435e5e6b2
+  - 8c64a2da3869
+  - fde4c972e7c5
+  tool_panel_section_label: Single-cell
+- name: music_manipulate_eset
+  owner: bgruening
+  revisions:
+  - b5185a4f5209
+  tool_panel_section_label: Single-cell
+- name: vpt_extract
+  owner: bgruening
+  revisions:
+  - 599229eafadd
+  - 9b5e8695f027
+  - f0d9060ba4d6
+  tool_panel_section_label: Spatial Omics
+- name: vpt_segment
+  owner: bgruening
+  revisions:
+  - 0811613196a2
+  - 5a1ab5a96f3b
+  - a88a1e78702e
+  tool_panel_section_label: Spatial Omics
+- name: webatlas_build_config
+  owner: bgruening
+  revisions:
+  - 5a5cf7b26a38
+  tool_panel_section_label: Spatial Omics
+- name: webatlas_consolidate_md
+  owner: bgruening
+  revisions:
+  - 42c7a50b00d0
+  tool_panel_section_label: Spatial Omics
+- name: webatlas_generate_image
+  owner: bgruening
+  revisions:
+  - e3e7ef4b1e96
+  tool_panel_section_label: Spatial Omics
+- name: webatlas_ome_zarr_metadata
+  owner: bgruening
+  revisions:
+  - e14dd18a4f77
+  tool_panel_section_label: Spatial Omics
+- name: webatlas_router
+  owner: bgruening
+  revisions:
+  - d8708fb569b4
+  tool_panel_section_label: Spatial Omics
+- name: webatlas_write_spatialdata
+  owner: bgruening
+  revisions:
+  - 5342f7abb91c
+  tool_panel_section_label: Spatial Omics
+- name: bg_statistical_hypothesis_testing
+  owner: bgruening
+  revisions:
+  - 178b22349b79
+  tool_panel_section_label: Statistics
+- name: coxph
+  owner: bgruening
+  revisions:
+  - f91f1e05c295
+  tool_panel_section_label: Statistics
+- name: create_tool_recommendation_model
+  owner: bgruening
+  revisions:
+  - 4f7e6612906b
+  - afec8c595124
+  - e94dc7945639
+  tool_panel_section_label: Statistics
+- name: pandas_rolling_window
+  owner: bgruening
+  revisions:
+  - a06f7b5c4dc7
+  tool_panel_section_label: Statistics
+- name: scipy_sparse
+  owner: bgruening
+  revisions:
+  - 233aab4c1be8
+  - 25254e963e6e
+  - 602b5fb7ef09
+  tool_panel_section_label: Statistics
+- name: survminer
+  owner: bgruening
+  revisions:
+  - f5b862f2ad87
+  tool_panel_section_label: Statistics
+- name: add_line_to_file
+  owner: bgruening
+  revisions:
+  - 8e251055b1a9
+  tool_panel_section_label: Text Manipulation
+- name: diff
+  owner: bgruening
+  revisions:
+  - 10ef1bf99074
+  - 156d0908e232
+  - be2d899bf34a
+  tool_panel_section_label: Text Manipulation
+- name: grobid_grobid
+  owner: iuc
+  revisions:
+  - 4abc0c381543
+  tool_panel_section_label: Text Manipulation
+- name: grobid_dataset_annotate
+  owner: iuc
+  revisions:
+  - f5a1ccef83e1
+  tool_panel_section_label: Text Manipulation
+- name: replace_column_by_key_value_file
+  owner: bgruening
+  revisions:
+  - d533e4b75800
+  tool_panel_section_label: Text Manipulation
+- name: yq
+  owner: bgruening
+  revisions:
+  - 3b395a0a8c02
+  - 53bd3f589de0
+  tool_panel_section_label: Text Manipulation
+- name: pharmcat
+  owner: bgruening
+  revisions:
+  - 891283e0ee89
+  - d67642a21a1d
+  tool_panel_section_label: Variant Calling

@@ -1,0 +1,188 @@
+install_repository_dependencies: true
+install_resolver_dependencies: true
+install_tool_dependencies: false
+tools:
+- name: sra_tools
+  owner: iuc
+  revisions:
+  - 516a54ddf218
+  - 8848455c0270
+  - f8054ea1c365
+  tool_panel_section_label: Get Data
+- name: fastqc
+  owner: devteam
+  revisions:
+  - 484e86282f4b
+  - a00a6402d09a
+  - f2e8552cf1d0
+  tool_panel_section_label: FASTA/FASTQ
+- name: prinseq
+  owner: iuc
+  revisions:
+  - 02befcb391f5
+  - 1ee282794de3
+  - 654b3a274ed5
+  tool_panel_section_label: FASTA/FASTQ
+- name: trim_galore
+  owner: bgruening
+  revisions:
+  - 1bf4789584dc
+  - 1bfc7254232e
+  - 949f01671246
+  tool_panel_section_label: FASTA/FASTQ
+- name: trimmomatic
+  owner: pjbriggs
+  revisions:
+  - 14d05f2d511d
+  - 53af7b5b1b56
+  - f8a9a5eaca8a
+  tool_panel_section_label: FASTA/FASTQ
+- name: multiqc
+  owner: iuc
+  revisions:
+  - 0559e0711094
+  - 97255f6fdf7e
+  - dc0f5512911c
+  tool_panel_section_label: Quality Control
+- name: format_cd_hit_output
+  owner: bebatut
+  revisions:
+  - 4015e9d6d277
+  tool_panel_section_label: Multiple Alignments
+- name: sortmerna
+  owner: rnateam
+  revisions:
+  - 1eafcc450052
+  - 59252ca85c74
+  - 65c38d020fea
+  tool_panel_section_label: Annotation
+- name: data_manager_sortmerna_database_downloader
+  owner: rnateam
+  revisions:
+  - 7d2252852f96
+  tool_panel_section_label: Data Managers
+- name: ncbi_blast_plus
+  owner: devteam
+  revisions:
+  - 3034ce97dd33
+  - 6f386c5dc4fb
+  - 7538e2bfcd41
+  tool_panel_section_label: NCBI Blast
+- name: diamond
+  owner: bgruening
+  revisions:
+  - 3c6b132b154a
+  - 54f751e413f4
+  - 98037ef3d2a9
+  tool_panel_section_label: NCBI Blast
+- name: bwa
+  owner: devteam
+  revisions:
+  - dfd8b7f78c37
+  tool_panel_section_label: Mapping
+- name: bowtie2
+  owner: devteam
+  revisions:
+  - 019c2a81547a
+  - 66f992977578
+  - a9d4f71dbfb0
+  tool_panel_section_label: Mapping
+- name: hmmer3
+  owner: iuc
+  revisions:
+  - 54b6b4d0613a
+  - b5066aa77fea
+  tool_panel_section_label: Annotation
+- name: vsearch
+  owner: iuc
+  revisions:
+  - 9495df9dd6ef
+  - b3c7199d8786
+  - fae6527990af
+  tool_panel_section_label: Metagenomic Analysis
+- name: nonpareil
+  owner: iuc
+  revisions:
+  - 9016f67b716f
+  - cef64c36c89e
+  - ed85107b3cfd
+  tool_panel_section_label: Metagenomic Analysis
+- name: megahit
+  owner: iuc
+  revisions:
+  - 14ddfc8ffb93
+  - a96f3ad4e0d8
+  - ab208c87d973
+  tool_panel_section_label: Assembly
+- name: metaspades
+  owner: nml
+  revisions:
+  - 2ecf5a570907
+  tool_panel_section_label: Assembly
+- name: quast
+  owner: iuc
+  revisions:
+  - 1b1cf0c96501
+  - 72472698a2df
+  - a3b35edea53a
+  tool_panel_section_label: Assembly
+- name: refseq_masher
+  owner: nml
+  revisions:
+  - 1ec42f033bb4
+  tool_panel_section_label: Assembly
+- name: valet
+  owner: iuc
+  revisions:
+  - 56236acaad45
+  tool_panel_section_label: Metagenomic Analysis
+- name: data_manager_qiime_database_downloader
+  owner: iuc
+  revisions:
+  - c4dba88e85ef
+  - cc18f0f3514c
+  - ed86a8f378c8
+  tool_panel_section_label: Data Managers
+- name: format_metaphlan2_output
+  owner: bebatut
+  revisions:
+  - 2bfa9b200600
+  tool_panel_section_label: Metagenomic Analysis
+- name: group_humann2_uniref_abundances_to_go
+  owner: bebatut
+  revisions:
+  - cad28d7b49d2
+  tool_panel_section_label: Metagenomic Analysis
+- name: compare_humann2_output
+  owner: bebatut
+  revisions:
+  - c1aca37cb1fc
+  tool_panel_section_label: Metagenomic Analysis
+- name: interproscan5
+  owner: bgruening
+  revisions:
+  - e32f2ea6a139
+  tool_panel_section_label: Annotation
+- name: combine_metaphlan2_humann2
+  owner: bebatut
+  revisions:
+  - 31394a0c0242
+  tool_panel_section_label: Metagenomic Analysis
+- name: export2graphlan
+  owner: iuc
+  revisions:
+  - 635c90a27692
+  - ed1becc01910
+  tool_panel_section_label: Graph/Display Data
+- name: taxonomy_krona_chart
+  owner: crs4
+  revisions:
+  - 7d01da0b9e18
+  tool_panel_section_label: Metagenomic Analysis
+- name: kleborate
+  owner: iuc
+  revisions:
+  - 374b2e9ade86
+  - 959920e3e800
+  - a7c43271312c
+  tool_panel_section_label: Metagenomic Analysis

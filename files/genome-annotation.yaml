@@ -1,0 +1,160 @@
+---
+install_repository_dependencies: true
+install_resolver_dependencies: true
+install_tool_dependencies: false
+
+tools:
+  - name: repeatexplorer_clustering
+    owner: gga
+    tool_panel_section_label: Annotation
+
+  - name: aegean_canongff3
+    owner: iuc
+    tool_panel_section_label: Annotation
+
+  - name: apollo_fetch_jbrowse
+    owner: gga
+    tool_panel_section_label: Apollo
+
+  - name: apollo_feat_from_gff3
+    owner: gga
+    tool_panel_section_label: Apollo
+
+  - name: apollo_export
+    owner: gga
+    tool_panel_section_label: Apollo
+
+  - name: apollo_iframe
+    owner: gga
+    tool_panel_section_label: Apollo
+
+  - name: apollo_create_or_update
+    owner: gga
+    tool_panel_section_label: Apollo
+
+  - name: apollo_delete_organism
+    owner: gga
+    tool_panel_section_label: Apollo
+
+  - name: apollo_create_account
+    owner: gga
+    tool_panel_section_label: Apollo
+
+  - name: apollo_list_organism
+    owner: gga
+    tool_panel_section_label: Apollo
+
+  - name: apollo_delete_features
+    owner: gga
+    tool_panel_section_label: Apollo
+
+  - name: staramr
+    owner: nml
+    tool_panel_section_label: Metagenomic Analysis
+
+  - name: busco
+    owner: iuc
+    tool_panel_section_label: Annotation
+
+  - name: augustus
+    owner: bgruening
+    tool_panel_section_label: Annotation
+
+  - name: augustus_training
+    owner: bgruening
+    tool_panel_section_label: Annotation
+
+  - name: fasta_stats
+    owner: simon-gladman
+    tool_panel_section_label: Annotation
+
+  - name: maker
+    owner: iuc
+    tool_panel_section_label: Annotation
+
+  - name: maker_map_ids
+    owner: iuc
+    tool_panel_section_label: Annotation
+
+  - name: aegean_locuspocus
+    owner: iuc
+    tool_panel_section_label: Annotation
+
+  - name: snap_training
+    owner: iuc
+    tool_panel_section_label: Annotation
+
+  - name: aegean_parseval
+    owner: iuc
+    tool_panel_section_label: Annotation
+
+  - name: progressivemauve
+    owner: iuc
+    tool_panel_section_label: Annotation
+
+  - name: bp_genbank2gff3
+    owner: iuc
+    tool_panel_section_label: Annotation
+
+  - name: blastxml_to_gapped_gff3
+    owner: iuc
+    tool_panel_section_label: Annotation
+
+  - name: aegean_gaeval
+    owner: iuc
+    tool_panel_section_label: Annotation
+
+  - name: gff_to_prot
+    owner: iuc
+    tool_panel_section_label: Annotation
+
+  - name: transit_gumbel
+    owner: iuc
+    tool_panel_section_label: Annotation
+
+  - name: transit_hmm
+    owner: iuc
+    tool_panel_section_label: Annotation
+
+  - name: transit_resampling
+    owner: iuc
+    tool_panel_section_label: Annotation
+
+  - name: transit_tn5gaps
+    owner: iuc
+    tool_panel_section_label: Annotation
+
+  - name: tbl2gff3
+    owner: iuc
+    tool_panel_section_label: Annotation
+
+  - name: helixer
+    owner: genouest
+    tool_panel_section_label: Annotation
+
+  - name: manta
+    owner: artbio
+    tool_panel_section_label: Variant Calling
+
+  - name: braker3
+    owner: genouest
+    tool_panel_section_label: Annotation
+
+  - name: deepsig
+    owner: iuc
+    tool_panel_section_label: Annotation
+
+  - name: genenotebook_genenotebook_build
+    owner: gga
+    tool_panel_section_label: Annotation
+
+  - name: omark
+    owner: iuc
+    tool_panel_section_label: Annotation
+
+  - name: data_manager_omamer
+    owner: iuc
+
+  - name: compleasm
+    owner: iuc
+    tool_panel_section_label: Annotation
