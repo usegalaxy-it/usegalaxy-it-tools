@@ -1,0 +1,31 @@
+name	owner	n_before	n_after	kept	removed	warning
+sra_tools	iuc	22	3	516a54ddf218,8848455c0270,f8054ea1c365	1790dcf3c32d,1ec814014652,494b2ec08162,4df8de2d0e48,653e89d73fc4,6591f049cf7e,69ebb7f46e45,6ea73833cf67,7068f48d0ef9,734abc7ac21d,751a694ec620,83c7d564b128,aad3885b3216,b723c120161a,ba931a59dd59,c441583adae5,e08a7ad4378b,e407b9da183a,f5ea3ce9b9b0	
+fastqc	devteam	8	3	484e86282f4b,a00a6402d09a,f2e8552cf1d0	28d39af2dd06,2d094334f61e,3fdc1a74d866,d2cf2c0c8a11,e28c965eeed4	
+prinseq	iuc	4	3	02befcb391f5,1ee282794de3,654b3a274ed5	6b865dde1baa	
+trim_galore	bgruening	7	3	1bf4789584dc,1bfc7254232e,949f01671246	11962ce40855,8352713cf939,eb546ac2aab2,f11ff7be8c78	
+trimmomatic	pjbriggs	5	3	14d05f2d511d,53af7b5b1b56,f8a9a5eaca8a	2bd7cdbb6228,a60283899c6d	
+multiqc	iuc	25	3	0559e0711094,97255f6fdf7e,dc0f5512911c	1c2db0054039,26ee5e11ecbe,31c42a2c02d3,371299578b8e,3d93dd18d9f8,3dd49be3f7d3,5e33b465d8d5,75c93c70d094,862943c10425,9a913cdee30e,a7e081ceb76a,abfd8a6544d7,b2f1f75d49c4,bb89ae58738c,bf675f34b056,c19b16e5729c,c1a4b5f3b432,d2aaac19f42f,e4574a4d09d8,e4dd4c0622f6,f7e2f1eb3a16,fac2260bc88a	
+format_cd_hit_output	bebatut	1	1	4015e9d6d277		
+sortmerna	rnateam	4	3	1eafcc450052,59252ca85c74,65c38d020fea	b482293b2987	
+data_manager_sortmerna_database_downloader	rnateam	1	1	7d2252852f96		
+ncbi_blast_plus	devteam	12	3	3034ce97dd33,6f386c5dc4fb,7538e2bfcd41	2fe07f50a41e,393a7a35383c,577d9c12411a,623f727cdff1,6560192c5098,70e7dcbf6573,7f3c448e119b,9dabbfd73c8a,b5f1f599d1fb	
+diamond	bgruening	3	3	3c6b132b154a,54f751e413f4,98037ef3d2a9		
+bwa	devteam	1	1	dfd8b7f78c37		
+bowtie2	devteam	7	3	019c2a81547a,66f992977578,a9d4f71dbfb0	4f92dccc808a,a54de7e658f7,c1ec08cb34f9,ceb6467e276c	
+hmmer3	iuc	2	2	54b6b4d0613a,b5066aa77fea		
+vsearch	iuc	3	3	9495df9dd6ef,b3c7199d8786,fae6527990af		
+nonpareil	iuc	4	3	9016f67b716f,cef64c36c89e,ed85107b3cfd	280386b252a5	
+megahit	iuc	7	3	14ddfc8ffb93,a96f3ad4e0d8,ab208c87d973	02a822e32de7,7518ee87b53d,98242353faa4,de387b2b2803	
+metaspades	nml	1	1	2ecf5a570907		
+quast	iuc	12	3	1b1cf0c96501,72472698a2df,a3b35edea53a	3061c8b029e5,342a1d1fed7b,59db8ea8c845,675488238c96,736d51130b41,7594365c546b,81df4950d65b,875d0f36d66f,ebb0dcdb621a	
+refseq_masher	nml	1	1	1ec42f033bb4		
+valet	iuc	1	1	56236acaad45		
+data_manager_qiime_database_downloader	iuc	3	3	c4dba88e85ef,cc18f0f3514c,ed86a8f378c8		
+format_metaphlan2_output	bebatut	1	1	2bfa9b200600		
+group_humann2_uniref_abundances_to_go	bebatut	1	1	cad28d7b49d2		
+compare_humann2_output	bebatut	1	1	c1aca37cb1fc		
+interproscan5	bgruening	1	1	e32f2ea6a139		
+combine_metaphlan2_humann2	bebatut	1	1	31394a0c0242		
+export2graphlan	iuc	2	2	635c90a27692,ed1becc01910		
+taxonomy_krona_chart	crs4	1	1	7d01da0b9e18		
+kleborate	iuc	4	3	374b2e9ade86,959920e3e800,a7c43271312c	383036561810	
