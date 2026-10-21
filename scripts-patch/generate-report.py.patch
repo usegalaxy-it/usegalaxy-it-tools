@@ -1,8 +1,6 @@
-diff --git a/usegalaxy-eu-tools/scripts/generate-report.py b/scripts-patch/generate-report.py
-index 1b40ec6..1e7eaf9 100644
 --- a/usegalaxy-eu-tools/scripts/generate-report.py
-+++ b/scripts-patch/generate-report.py
-@@ -40,15 +40,15 @@ if not sections:
++++ b/usegalaxy-eu-tools/scripts/generate-report.py
+@@ -40,15 +40,15 @@
      sys.exit(0)
  
  print("""---
