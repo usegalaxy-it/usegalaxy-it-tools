@@ -1,0 +1,41 @@
+name	owner	n_before	n_after	kept	removed	warning
+mqc	rnateam	1	1	523dd2a71270		
+cmsearch_deoverlap	rnateam	3	3	42c5bf8ed1b0,54b16c794341,874ad23526a0		
+join_files_on_column_fuzzy	bgruening	1	1	22ec3c1a20cd		
+epicseg	rnateam	1	1	6260e42c7d49		
+chipseeker	rnateam	4	3	1b9a9409831d,8bd92f2404dd,b418a1d3585d	4c2dbe4dbb4e	
+graphprot_predict_profile	rnateam	3	3	215925e588c4,33b590aa07c1,ddcf35a868b8		
+rbpbench	rnateam	3	3	26c64157456b,6d2c5b92e9e0,b022c6591515		
+footprint	rnateam	1	1	0d94a529f925		
+sshmm	rnateam	1	1	4b01f0d7b350		
+cmv	rnateam	1	1	6e36667f1729		
+rnalien	rnateam	1	1	9e173f038156		
+selectsequencesfrommsa	rnateam	2	2	48fc2c21fe1c,876c70c6ecad		
+locarna_multiple	rnateam	3	3	6e20ad2c8752,7554c0df9139,94b0468f0db8		
+fuma	yhoogstrate	1	1	b21145d59d9c		
+infernal	bgruening	4	3	1d74ed49cf41,3711f654044e,c9e29ac5d099	477d829d3250	
+aresite2	rnateam	1	1	a3ce813ed604		
+targetfinder	rnateam	2	2	773fdd1a02ea,c9d56748fbde		
+flaimapper	yhoogstrate	1	1	0addbdbc1344		
+mirdeep2	rnateam	1	1	6a17e1229b9f		
+mirdeep2_mapper	rnateam	1	1	dbbe92348c7a		
+nastiseq	rnateam	1	1	0a0bba8e1823		
+rnacode	rnateam	1	1	d49b9759e294		
+pipmir	rnateam	1	1	16209195224c		
+ribotaper	rnateam	3	3	74b0ca4446af,9bc0a9b45b8b,9dda0cc9ff98		
+cmcv	rnateam	1	1	8405fa59c2b2		
+mea	rnateam	1	1	9ebd60531aa6		
+dr_disco	erasmus-medical-center	1	1	3743fd602fa9		
+rnaz	bgruening	1	1	58fd61a8362e		
+rnaz_cluster	bgruening	1	1	d21d8e70e802		
+rnaz_select_seqs	bgruening	1	1	273a961d332f		
+rnaz_window	bgruening	1	1	fdfe3dcf8fc4		
+rnaz_randomize_aln	bgruening	1	1	5d006d19f70a		
+rnaz_annotate	bgruening	1	1	e123d5c6f489		
+cofold	rnateam	1	1	6fed0bc99753		
+dewseq	rnateam	1	1	e1cb2e012307		
+htseq_clip	rnateam	1	1	c82c41550f82		
+peakachu	rnateam	1	1	940b1d632f4d		
+infer_rnaformer	rnateam	2	2	02b0ecc34d9a,6c310acd2f87		
+trnascan	bgruening	1	1	2b4b8d8436ce		
+aragorn_trna	bgruening	1	1	3293904c967c		

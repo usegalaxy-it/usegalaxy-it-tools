@@ -1,0 +1,221 @@
+install_repository_dependencies: true
+install_resolver_dependencies: true
+install_tool_dependencies: false
+tools:
+- name: mqc
+  owner: rnateam
+  revisions:
+  - 523dd2a71270
+  tool_panel_section_label: Quality Control
+- name: cmsearch_deoverlap
+  owner: rnateam
+  revisions:
+  - 42c5bf8ed1b0
+  - 54b16c794341
+  - 874ad23526a0
+  tool_panel_section_label: RNA Analysis
+- name: join_files_on_column_fuzzy
+  owner: bgruening
+  revisions:
+  - 22ec3c1a20cd
+  tool_panel_section_label: Text Manipulation
+- name: epicseg
+  owner: rnateam
+  revisions:
+  - 6260e42c7d49
+  tool_panel_section_label: Epigenetics
+- name: chipseeker
+  owner: rnateam
+  revisions:
+  - 1b9a9409831d
+  - 8bd92f2404dd
+  - b418a1d3585d
+  tool_panel_section_label: Annotation
+- name: graphprot_predict_profile
+  owner: rnateam
+  revisions:
+  - 215925e588c4
+  - 33b590aa07c1
+  - ddcf35a868b8
+  tool_panel_section_label: RNA Analysis
+- name: rbpbench
+  owner: rnateam
+  revisions:
+  - 26c64157456b
+  - 6d2c5b92e9e0
+  - b022c6591515
+  tool_panel_section_label: RNA Analysis
+- name: footprint
+  owner: rnateam
+  revisions:
+  - 0d94a529f925
+  tool_panel_section_label: RNA Analysis
+- name: sshmm
+  owner: rnateam
+  revisions:
+  - 4b01f0d7b350
+  tool_panel_section_label: RNA Analysis
+- name: cmv
+  owner: rnateam
+  revisions:
+  - 6e36667f1729
+  tool_panel_section_label: RNA Analysis
+- name: rnalien
+  owner: rnateam
+  revisions:
+  - 9e173f038156
+  tool_panel_section_label: RNA Analysis
+- name: selectsequencesfrommsa
+  owner: rnateam
+  revisions:
+  - 48fc2c21fe1c
+  - 876c70c6ecad
+  tool_panel_section_label: RNA Analysis
+- name: locarna_multiple
+  owner: rnateam
+  revisions:
+  - 6e20ad2c8752
+  - 7554c0df9139
+  - 94b0468f0db8
+  tool_panel_section_label: RNA Analysis
+- name: fuma
+  owner: yhoogstrate
+  revisions:
+  - b21145d59d9c
+  tool_panel_section_label: RNA Analysis
+- name: infernal
+  owner: bgruening
+  revisions:
+  - 1d74ed49cf41
+  - 3711f654044e
+  - c9e29ac5d099
+  tool_panel_section_label: RNA Analysis
+- name: aresite2
+  owner: rnateam
+  revisions:
+  - a3ce813ed604
+  tool_panel_section_label: RNA Analysis
+- name: targetfinder
+  owner: rnateam
+  revisions:
+  - 773fdd1a02ea
+  - c9d56748fbde
+  tool_panel_section_label: RNA Analysis
+- name: flaimapper
+  owner: yhoogstrate
+  revisions:
+  - 0addbdbc1344
+  tool_panel_section_label: RNA Analysis
+- name: mirdeep2
+  owner: rnateam
+  revisions:
+  - 6a17e1229b9f
+  tool_panel_section_label: RNA Analysis
+- name: mirdeep2_mapper
+  owner: rnateam
+  revisions:
+  - dbbe92348c7a
+  tool_panel_section_label: RNA Analysis
+- name: nastiseq
+  owner: rnateam
+  revisions:
+  - 0a0bba8e1823
+  tool_panel_section_label: RNA Analysis
+- name: rnacode
+  owner: rnateam
+  revisions:
+  - d49b9759e294
+  tool_panel_section_label: RNA Analysis
+- name: pipmir
+  owner: rnateam
+  revisions:
+  - 16209195224c
+  tool_panel_section_label: RNA Analysis
+- name: ribotaper
+  owner: rnateam
+  revisions:
+  - 74b0ca4446af
+  - 9bc0a9b45b8b
+  - 9dda0cc9ff98
+  tool_panel_section_label: RNA Analysis
+- name: cmcv
+  owner: rnateam
+  revisions:
+  - 8405fa59c2b2
+  tool_panel_section_label: RNA Analysis
+- name: mea
+  owner: rnateam
+  revisions:
+  - 9ebd60531aa6
+  tool_panel_section_label: RNA Analysis
+- name: dr_disco
+  owner: erasmus-medical-center
+  revisions:
+  - 3743fd602fa9
+  tool_panel_section_label: RNA Analysis
+- name: rnaz
+  owner: bgruening
+  revisions:
+  - 58fd61a8362e
+  tool_panel_section_label: RNA Analysis
+- name: rnaz_cluster
+  owner: bgruening
+  revisions:
+  - d21d8e70e802
+  tool_panel_section_label: RNA Analysis
+- name: rnaz_select_seqs
+  owner: bgruening
+  revisions:
+  - 273a961d332f
+  tool_panel_section_label: RNA Analysis
+- name: rnaz_window
+  owner: bgruening
+  revisions:
+  - fdfe3dcf8fc4
+  tool_panel_section_label: RNA Analysis
+- name: rnaz_randomize_aln
+  owner: bgruening
+  revisions:
+  - 5d006d19f70a
+  tool_panel_section_label: RNA Analysis
+- name: rnaz_annotate
+  owner: bgruening
+  revisions:
+  - e123d5c6f489
+  tool_panel_section_label: RNA Analysis
+- name: cofold
+  owner: rnateam
+  revisions:
+  - 6fed0bc99753
+  tool_panel_section_label: RNA Analysis
+- name: dewseq
+  owner: rnateam
+  revisions:
+  - e1cb2e012307
+  tool_panel_section_label: Peak Calling
+- name: htseq_clip
+  owner: rnateam
+  revisions:
+  - c82c41550f82
+  tool_panel_section_label: Peak Calling
+- name: peakachu
+  owner: rnateam
+  revisions:
+  - 940b1d632f4d
+  tool_panel_section_label: Peak Calling
+- name: infer_rnaformer
+  owner: rnateam
+  revisions:
+  - 02b0ecc34d9a
+  - 6c310acd2f87
+  tool_panel_section_label: RNA Analysis
+- name: trnascan
+  owner: bgruening
+  revisions:
+  - 2b4b8d8436ce
+  tool_panel_section_label: Annotation
+- name: aragorn_trna
+  owner: bgruening
+  revisions:
+  - 3293904c967c
+  tool_panel_section_label: Annotation
