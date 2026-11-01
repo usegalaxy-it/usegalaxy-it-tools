@@ -1,0 +1,40 @@
+install_repository_dependencies: true
+install_resolver_dependencies: true
+install_tool_dependencies: false
+tools:
+- name: sistr_cmd
+  owner: nml
+  revisions:
+  - 17fcac7ddf54
+  - 24a7a95867b0
+  - cf767360ede1
+  tool_panel_section_label: Annotation
+- name: cryptogenotyper
+  owner: nml
+  revisions:
+  - a91455432cd4
+  - d4a96287909e
+  tool_panel_section_label: Annotation
+- name: ectyper
+  owner: nml
+  revisions:
+  - 9cd096bee567
+  - daba54cd25ca
+  tool_panel_section_label: Annotation
+- name: mob_suite
+  owner: nml
+  revisions:
+  - '179497074102'
+  - 2fd93022d5d7
+  - 93ba63eaf394
+  tool_panel_section_label: Annotation
+- name: collapse_collections
+  owner: nml
+  revisions:
+  - 90981f86000f
+  tool_panel_section_label: Collection Operations
+- name: mrbayes
+  owner: nml
+  revisions:
+  - 905d00fb5243
+  tool_panel_section_label: Phylogenetics
