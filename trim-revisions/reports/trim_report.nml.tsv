@@ -1,0 +1,7 @@
+name	owner	n_before	n_after	kept	removed	warning
+sistr_cmd	nml	4	3	17fcac7ddf54,24a7a95867b0,cf767360ede1	5c8ff92e38a9	
+cryptogenotyper	nml	2	2	a91455432cd4,d4a96287909e		
+ectyper	nml	2	2	9cd096bee567,daba54cd25ca		
+mob_suite	nml	4	3	179497074102,2fd93022d5d7,93ba63eaf394	822575bf359f	
+collapse_collections	nml	1	1	90981f86000f		
+mrbayes	nml	1	1	905d00fb5243		
