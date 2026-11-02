@@ -5,6 +5,7 @@ tools:
 - name: sra_tools
   owner: iuc
   revisions:
+  - 2b2eb47e8e84
   - 8848455c0270
   tool_panel_section_label: Get Data
 - name: salmon
@@ -19,9 +20,9 @@ tools:
   tool_panel_section_label: FASTA/FASTQ
 - name: fastqc
   owner: devteam
-  tool_panel_section_label: FASTA/FASTQ
   revisions:
   - 2c64fded1286
+  tool_panel_section_label: FASTA/FASTQ
 - name: bowtie2
   owner: devteam
   revisions:
@@ -35,10 +36,12 @@ tools:
 - name: bwa
   owner: devteam
   revisions:
+  - 2e9f2d3d1b39
   - c598cbb8b019
   tool_panel_section_label: Mapping
 - name: bwa_mem2
   owner: iuc
   revisions:
+  - 7febc71de9c3
   - af91699b8d4c
   tool_panel_section_label: Mapping

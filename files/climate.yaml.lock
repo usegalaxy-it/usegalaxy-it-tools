@@ -192,6 +192,7 @@ tools:
   owner: iuc
   revisions:
   - 3ddd99c7efee
+  - 4b00d89e8690
   tool_panel_section_label: Join, Subtract and Group
 - name: scatterplot
   owner: devteam
@@ -221,6 +222,7 @@ tools:
   - 1df3b30325dd
   - ae344ccf9d62
   - b1268b7544d3
+  - ffcb4db567f9
   tool_panel_section_label: Graph/Display Data
 - name: ggplot2_heatmap
   owner: iuc
@@ -228,6 +230,7 @@ tools:
   - 10515715c940
   - 15cebddc6dba
   - 1a72f938213e
+  - 28320e68ff9f
   tool_panel_section_label: Graph/Display Data
 - name: ggplot2_violin
   owner: iuc
@@ -235,6 +238,7 @@ tools:
   - 0e7290688b50
   - 17b666467c32
   - 63d211052ffb
+  - aa4edc1c6f6c
   tool_panel_section_label: Graph/Display Data
 - name: ggplot2_heatmap2
   owner: iuc
@@ -242,10 +246,12 @@ tools:
   - 48b42ee61bc5
   - 51c6ccaace7e
   - 6a097d09fca3
+  - 94f3fd9ade04
   tool_panel_section_label: Graph/Display Data
 - name: ggplot2_point
   owner: iuc
   revisions:
+  - 1336484a4e6b
   - 5298e06f14f9
   - 5fe1dc76176e
   - f87634b12749
@@ -256,6 +262,7 @@ tools:
   - 11869c5becd8
   - 355a82227003
   - 398e5104f8a2
+  - 457ffc1c1c62
   - 6b9816a913de
   - 6fc8bab811da
   - b0d96516e6a5

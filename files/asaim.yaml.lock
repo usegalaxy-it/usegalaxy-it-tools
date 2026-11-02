@@ -5,6 +5,7 @@ tools:
 - name: sra_tools
   owner: iuc
   revisions:
+  - 2b2eb47e8e84
   - 516a54ddf218
   - 8848455c0270
   - f8054ea1c365
@@ -12,6 +13,7 @@ tools:
 - name: fastqc
   owner: devteam
   revisions:
+  - 2c64fded1286
   - 484e86282f4b
   - a00a6402d09a
   - f2e8552cf1d0
@@ -22,12 +24,14 @@ tools:
   - 02befcb391f5
   - 1ee282794de3
   - 654b3a274ed5
+  - dbd2e239117c
   tool_panel_section_label: FASTA/FASTQ
 - name: trim_galore
   owner: bgruening
   revisions:
   - 1bf4789584dc
   - 1bfc7254232e
+  - 433db23e1c1d
   - 949f01671246
   tool_panel_section_label: FASTA/FASTQ
 - name: trimmomatic
@@ -35,12 +39,14 @@ tools:
   revisions:
   - 14d05f2d511d
   - 53af7b5b1b56
+  - 771554c05a0b
   - f8a9a5eaca8a
   tool_panel_section_label: FASTA/FASTQ
 - name: multiqc
   owner: iuc
   revisions:
   - 0559e0711094
+  - 94b6bea727ae
   - 97255f6fdf7e
   - dc0f5512911c
   tool_panel_section_label: Quality Control
@@ -48,6 +54,7 @@ tools:
   owner: bebatut
   revisions:
   - 4015e9d6d277
+  - 64da677bcee2
   tool_panel_section_label: Multiple Alignments
 - name: sortmerna
   owner: rnateam
@@ -55,6 +62,7 @@ tools:
   - 1eafcc450052
   - 59252ca85c74
   - 65c38d020fea
+  - f7746d145125
   tool_panel_section_label: Annotation
 - name: data_manager_sortmerna_database_downloader
   owner: rnateam
@@ -67,6 +75,7 @@ tools:
   - 3034ce97dd33
   - 6f386c5dc4fb
   - 7538e2bfcd41
+  - fc35ffc8c548
   tool_panel_section_label: NCBI Blast
 - name: diamond
   owner: bgruening
@@ -74,10 +83,12 @@ tools:
   - 3c6b132b154a
   - 54f751e413f4
   - 98037ef3d2a9
+  - ad7226fac56d
   tool_panel_section_label: NCBI Blast
 - name: bwa
   owner: devteam
   revisions:
+  - 2e9f2d3d1b39
   - dfd8b7f78c37
   tool_panel_section_label: Mapping
 - name: bowtie2
@@ -85,6 +96,7 @@ tools:
   revisions:
   - 019c2a81547a
   - 66f992977578
+  - a470b376503d
   - a9d4f71dbfb0
   tool_panel_section_label: Mapping
 - name: hmmer3
@@ -96,6 +108,7 @@ tools:
 - name: vsearch
   owner: iuc
   revisions:
+  - 010235ce52d2
   - 9495df9dd6ef
   - b3c7199d8786
   - fae6527990af
@@ -111,6 +124,7 @@ tools:
   owner: iuc
   revisions:
   - 14ddfc8ffb93
+  - 792acb18fb24
   - a96f3ad4e0d8
   - ab208c87d973
   tool_panel_section_label: Assembly
@@ -118,6 +132,7 @@ tools:
   owner: nml
   revisions:
   - 2ecf5a570907
+  - 434f2a6c3ade
   tool_panel_section_label: Assembly
 - name: quast
   owner: iuc
@@ -125,6 +140,7 @@ tools:
   - 1b1cf0c96501
   - 72472698a2df
   - a3b35edea53a
+  - baeffe7bfe47
   tool_panel_section_label: Assembly
 - name: refseq_masher
   owner: nml
@@ -147,15 +163,18 @@ tools:
   owner: bebatut
   revisions:
   - 2bfa9b200600
+  - 2c87f56bd53a
   tool_panel_section_label: Metagenomic Analysis
 - name: group_humann2_uniref_abundances_to_go
   owner: bebatut
   revisions:
   - cad28d7b49d2
+  - fd2cf7c9d3ec
   tool_panel_section_label: Metagenomic Analysis
 - name: compare_humann2_output
   owner: bebatut
   revisions:
+  - 844fcd42ec7c
   - c1aca37cb1fc
   tool_panel_section_label: Metagenomic Analysis
 - name: interproscan5
@@ -167,16 +186,19 @@ tools:
   owner: bebatut
   revisions:
   - 31394a0c0242
+  - 662a334004b4
   tool_panel_section_label: Metagenomic Analysis
 - name: export2graphlan
   owner: iuc
   revisions:
   - 635c90a27692
+  - a5055c0d190b
   - ed1becc01910
   tool_panel_section_label: Graph/Display Data
 - name: taxonomy_krona_chart
   owner: crs4
   revisions:
+  - 01a54504b6aa
   - 7d01da0b9e18
   tool_panel_section_label: Metagenomic Analysis
 - name: kleborate
