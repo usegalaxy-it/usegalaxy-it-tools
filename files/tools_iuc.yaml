@@ -73,6 +73,10 @@ tools:
     owner: iuc
     tool_panel_section_label: Annotation
 
+  - name: bionym
+    owner: iuc
+    tool_panel_section_label: Annotation
+
   - name: biotradis
     owner: iuc
     tool_panel_section_label: Annotation
@@ -181,6 +185,10 @@ tools:
   - name: data_manager_build_coreprofiler
     owner: iuc
 
+  - name: dnaapler
+    owner: iuc
+    tool_panel_section_label: Annotation
+
   - name: drhip
     owner: iuc
     tool_panel_section_label: Annotation
@@ -219,6 +227,22 @@ tools:
     owner: iuc
 
   - name: exonerate
+    owner: iuc
+    tool_panel_section_label: Annotation
+
+  - name: fair_bioheaders_verify
+    owner: iuc
+    tool_panel_section_label: Annotation
+
+  - name: fair_bioheaders_strip
+    owner: iuc
+    tool_panel_section_label: Annotation
+
+  - name: fair_bioheaders_convert
+    owner: iuc
+    tool_panel_section_label: Annotation
+
+  - name: fair_bioheaders_combine
     owner: iuc
     tool_panel_section_label: Annotation
 
@@ -271,6 +295,10 @@ tools:
     tool_panel_section_label: Annotation
 
   - name: getitd
+    owner: iuc
+    tool_panel_section_label: Annotation
+
+  - name: gfaffix
     owner: iuc
     tool_panel_section_label: Annotation
 
@@ -354,6 +382,10 @@ tools:
     owner: iuc
     tool_panel_section_label: Annotation
 
+  - name: mge_cluster
+    owner: iuc
+    tool_panel_section_label: Annotation
+
   - name: mist_dists
     owner: iuc
     tool_panel_section_label: Annotation
@@ -391,6 +423,10 @@ tools:
     tool_panel_section_label: Annotation
 
   - name: odb_mapper
+    owner: iuc
+    tool_panel_section_label: Annotation
+
+  - name: pggb
     owner: iuc
     tool_panel_section_label: Annotation
 
@@ -441,6 +477,10 @@ tools:
   - name: mtnucratio
     owner: iuc
     tool_panel_section_label: "FASTQ Quality Control"
+
+  - name: smoothxg
+    owner: iuc
+    tool_panel_section_label: Annotation
 
   - name: sourmash_tax_summarize
     owner: iuc
@@ -899,6 +939,10 @@ tools:
     tool_panel_section_label: Annotation
 
   - name: transtermhp
+    owner: iuc
+    tool_panel_section_label: Annotation
+
+  - name: ucsc_bigwigaverageoverbed
     owner: iuc
     tool_panel_section_label: Annotation
 
@@ -1642,6 +1686,10 @@ tools:
   - name: emboss_needle
     owner: iuc
     tool_panel_section_label: EMBOSS
+
+  - name: atacseqqc
+    owner: iuc
+    tool_panel_section_label: Epigenetics
 
 
 # EPIGENETICS
@@ -3075,6 +3123,10 @@ tools:
     tool_panel_section_label: Metagenomic Analysis
 
   - name: metamdbg_asm
+    owner: iuc
+    tool_panel_section_label: Metagenomic Analysis
+
+  - name: mumu
     owner: iuc
     tool_panel_section_label: Metagenomic Analysis
 
@@ -5465,6 +5517,34 @@ tools:
     owner: iuc
     tool_panel_section_label: Phylogenetics
 
+  - name: chronaeon_triage
+    owner: iuc
+    tool_panel_section_label: Phylogenetics
+
+  - name: chronaeon_sketch
+    owner: iuc
+    tool_panel_section_label: Phylogenetics
+
+  - name: chronaeon_phylogeo
+    owner: iuc
+    tool_panel_section_label: Phylogenetics
+
+  - name: chronaeon_dynamics
+    owner: iuc
+    tool_panel_section_label: Phylogenetics
+
+  - name: chronaeon_date
+    owner: iuc
+    tool_panel_section_label: Phylogenetics
+
+  - name: chronaeon_autoclock
+    owner: iuc
+    tool_panel_section_label: Phylogenetics
+
+  - name: chronaeon_align
+    owner: iuc
+    tool_panel_section_label: Phylogenetics
+
   - name: fastreer_dist2tree
     owner: iuc
     tool_panel_section_label: Phylogenetics
@@ -5602,6 +5682,10 @@ tools:
     tool_panel_section_label: Phylogenetics
 
   - name: hyphy_summary
+    owner: iuc
+    tool_panel_section_label: Phylogenetics
+
+  - name: mashtree
     owner: iuc
     tool_panel_section_label: Phylogenetics
 
@@ -6057,6 +6141,10 @@ tools:
     owner: iuc
     tool_panel_section_label: Assembly
 
+  - name: rsem
+    owner: iuc
+    tool_panel_section_label: RNA Analysis
+
   - name: rseqc
     owner: nilesh
     tool_panel_section_label: RNA Analysis
@@ -6130,6 +6218,10 @@ tools:
     tool_panel_section_label: RNA Analysis
 
   - name: tetoolkit_tetranscripts
+    owner: iuc
+    tool_panel_section_label: RNA Analysis
+
+  - name: topanat
     owner: iuc
     tool_panel_section_label: RNA Analysis
 
@@ -6544,6 +6636,10 @@ tools:
     owner: iuc
     tool_panel_section_label: Spatial Omics
 
+  - name: tissue
+    owner: iuc
+    tool_panel_section_label: Spatial Omics
+
 # SINGLE-CELL
 
   - name: cosg
@@ -6950,6 +7046,10 @@ tools:
     tool_panel_section_label: Text Manipulation
 
   - name: filter_tabular
+    owner: iuc
+    tool_panel_section_label: Text Manipulation
+
+  - name: fixed2tab
     owner: iuc
     tool_panel_section_label: Text Manipulation
 
