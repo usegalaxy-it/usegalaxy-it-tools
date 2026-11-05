@@ -646,6 +646,7 @@ tools:
   owner: bgruening
   revisions:
   - 3a9709a4df77
+  - d1994cdece4e
   tool_panel_section_label: Imaging
 - name: bioimage_inference
   owner: bgruening
@@ -658,6 +659,7 @@ tools:
   owner: bgruening
   revisions:
   - 7b390f574967
+  - b95a36b762f9
   tool_panel_section_label: Imaging
 - name: imagemagick_image_convert
   owner: bgruening
@@ -689,18 +691,21 @@ tools:
 - name: edit_coco_annotation
   owner: bgruening
   revisions:
+  - 0792ed596a12
   - b702f65d511e
   tool_panel_section_label: Imaging
 - name: json2yolosegment
   owner: bgruening
   revisions:
   - 2e6ca212a1af
+  - 3c9290e97a70
   - 7db48c618bbe
   - fe95917c3e20
   tool_panel_section_label: Imaging
 - name: yolo_predict
   owner: bgruening
   revisions:
+  - 30583717e2e5
   - 3e9d14e5942f
   - d77c67cfe2ca
   - e708a1191202
@@ -710,6 +715,7 @@ tools:
   revisions:
   - 5cc588ef3793
   - ad05e90d024b
+  - cebdcfa1fc97
   - ece3536c5e0e
   tool_panel_section_label: Imaging
 - name: imagemagick_image_montage

@@ -1,0 +1,344 @@
+---
+install_repository_dependencies: false
+install_resolver_dependencies: false
+install_tool_dependencies: false
+tools:
+  - name: recetox_aplcms_generate_feature_table
+    owner: recetox
+    tool_panel_section_label: Metabolomics
+
+  - name: recetox_aplcms_recover_weaker_signals
+    owner: recetox
+    tool_panel_section_label: Metabolomics
+
+  - name: recetox_aplcms_correct_time
+    owner: recetox
+    tool_panel_section_label: Metabolomics
+
+  - name: recetox_aplcms_compute_clusters
+    owner: recetox
+    tool_panel_section_label: Metabolomics
+
+  - name: recetox_aplcms_remove_noise
+    owner: recetox
+    tool_panel_section_label: Metabolomics
+
+  - name: recetox_aplcms_merge_known_table
+    owner: recetox
+    tool_panel_section_label: Metabolomics
+
+  - name: recetox_aplcms_compute_template
+    owner: recetox
+    tool_panel_section_label: Metabolomics
+
+  - name: recetox_aplcms_align_features
+    owner: recetox
+    tool_panel_section_label: Metabolomics
+
+  - name: rmassbank
+    owner: recetox
+    tool_panel_section_label: Metabolomics
+
+  - name: biotransformer
+    owner: recetox
+    tool_panel_section_label: Metabolomics
+
+  - name: msmetaenhancer
+    owner: recetox
+    tool_panel_section_label: Metabolomics
+
+  - name: riassigner
+    owner: recetox
+    tool_panel_section_label: Metabolomics
+
+  - name: ramclustr
+    owner: recetox
+    tool_panel_section_label: Metabolomics
+
+  - name: ramclustr_define_experiment
+    owner: recetox
+    tool_panel_section_label: Metabolomics
+
+  - name: recetox_xmsannotator_advanced
+    owner: recetox
+    tool_panel_section_label: Metabolomics
+
+  - name: matchms_convert
+    owner: recetox
+    tool_panel_section_label: Metabolomics
+
+  - name: matchms_add_key
+    owner: recetox
+    tool_panel_section_label: Metabolomics
+
+  - name: matchms_remove_key
+    owner: recetox
+    tool_panel_section_label: Metabolomics
+  
+  - name: matchms_filtering
+    owner: recetox
+    tool_panel_section_label: Metabolomics
+
+  - name: matchms_remove_spectra
+    owner: recetox
+    tool_panel_section_label: Metabolomics
+    
+  - name: matchms_fingerprint_similarity
+    owner: recetox
+    tool_panel_section_label: Metabolomics
+
+  - name: matchms_formatter
+    owner: recetox
+    tool_panel_section_label: Metabolomics
+
+  - name: matchms_metadata_export
+    owner: recetox
+    tool_panel_section_label: Metabolomics
+
+  - name: matchms_metadata_match
+    owner: recetox
+    tool_panel_section_label: Metabolomics
+
+  - name: matchms_networking
+    owner: recetox
+    tool_panel_section_label: Metabolomics
+
+  - name: matchms_similarity
+    owner: recetox
+    tool_panel_section_label: Metabolomics
+
+  - name: matchms_spectral_similarity
+    owner: recetox
+    tool_panel_section_label: Metabolomics
+
+  - name: matchms_split
+    owner: recetox
+    tool_panel_section_label: Metabolomics
+
+  - name: matchms_subsetting
+    owner: recetox
+    tool_panel_section_label: Metabolomics
+
+  - name: matchms_metadata_merge
+    owner: recetox
+    tool_panel_section_label: Metabolomics
+
+  - name: waveica
+    owner: recetox
+    tool_panel_section_label: Metabolomics
+
+  - name: xtb_molecular_optimization
+    owner: recetox
+    tool_panel_section_label: ChemicalToolBox
+
+  - name: rem_complex
+    owner: recetox
+    tool_panel_section_label: ChemicalToolBox
+
+  - name: recetox_msfinder
+    owner: recetox
+    tool_panel_section_label: Metabolomics
+
+  - name: qcxms_neutral_run
+    owner: recetox
+    tool_panel_section_label: ChemicalToolBox
+    
+  - name: qcxms_production_run
+    owner: recetox
+    tool_panel_section_label: ChemicalToolBox
+
+  - name: qcxms_getres
+    owner: recetox
+    tool_panel_section_label: ChemicalToolBox
+
+  - name: use_theoretical_mz_annotations
+    owner: recetox
+    tool_panel_section_label: Metabolomics
+
+  - name: rename_annotated_feature
+    owner: recetox
+    tool_panel_section_label: Metabolomics
+
+  - name: assign_ri_from_comment
+    owner: recetox
+    tool_panel_section_label: Metabolomics
+
+  - name: isolib
+    owner: recetox
+    tool_panel_section_label: Metabolomics
+
+  - name: gc_derivatization
+    owner: recetox
+    tool_panel_section_label: Metabolomics
+
+  - name: xcms_plot_raw
+    owner: workflow4metabolomics
+    tool_panel_section_label: Metabolomics
+
+  - name: xcms_plot_eic
+    owner: workflow4metabolomics
+    tool_panel_section_label: Metabolomics
+
+  - name: spec2vec_similarity
+    owner: recetox
+    tool_panel_section_label: Metabolomics
+
+  - name: spec2vec_training
+    owner: recetox
+    tool_panel_section_label: Metabolomics
+
+  - name: mfassignr_snplot
+    owner: recetox
+    tool_panel_section_label: Metabolomics
+
+  - name: mfassignr_histnoise
+    owner: recetox
+    tool_panel_section_label: Metabolomics
+
+  - name: mfassignr_kmdnoise
+    owner: recetox
+    tool_panel_section_label: Metabolomics
+
+  - name: mfassignr_isofiltr
+    owner: recetox
+    tool_panel_section_label: Metabolomics
+
+  - name: mfassignr_mfassign
+    owner: recetox
+    tool_panel_section_label: Metabolomics
+
+  - name: mfassignr_mfassigncho
+    owner: recetox
+    tool_panel_section_label: Metabolomics
+
+  - name: mfassignr_recal
+    owner: recetox
+    tool_panel_section_label: Metabolomics
+
+  - name: mfassignr_recallist
+    owner: recetox
+    tool_panel_section_label: Metabolomics
+  
+  - name: mfassignr_findrecalseries
+    owner: recetox
+    tool_panel_section_label: Metabolomics
+
+  - name: rcx_tk
+    owner: recetox
+    tool_panel_section_label: Metabolomics
+  
+  - name: target_screen
+    owner: recetox
+    tool_panel_section_label: Metabolomics
+
+  - name: ms2deepscore_config_generator
+    owner: recetox
+    tool_panel_section_label: Metabolomics
+
+  - name: ms2deepscore_similarity
+    owner: recetox
+    tool_panel_section_label: Metabolomics
+
+  - name: ms2deepscore_training
+    owner: recetox
+    tool_panel_section_label: Metabolomics
+
+  - name: bioconductor_scp
+    owner: recetox
+    tool_panel_section_label: Proteomics
+  
+  - name: freqsap
+    owner: recetox
+    tool_panel_section_label: Proteomics
+  
+  - name: bioconductor_msnbase_smooth_mz
+    owner: recetox
+    tool_panel_section_label: Metabolomics
+
+  - name: bioconductor_msnbase_smooth_chromatogram
+    owner: recetox
+    tool_panel_section_label: Metabolomics
+
+  - name: bioconductor_mzr
+    owner: recetox
+    tool_panel_section_label: Metabolomics
+
+  - name: bioconductor_msnbase_centroid
+    owner: recetox
+    tool_panel_section_label: Metabolomics
+
+  - name: aoptk_chemical_identifier
+    owner: recetox
+    tool_panel_section_label: Machine Learning
+
+  - name: aoptk_publication_tracker
+    owner: recetox
+    tool_panel_section_label: Machine Learning
+  
+  - name: mzspeclib_convert
+    owner: recetox
+    tool_panel_section_label: Proteomics
+  
+  - name: mzspeclib_describe
+    owner: recetox
+    tool_panel_section_label: Proteomics
+  
+  - name: mzspeclib_validate
+    owner: recetox
+    tool_panel_section_label: Proteomics
+  
+  - name: mztabm_validate
+    owner: recetox
+    tool_panel_section_label: Metabolomics
+  
+  - name: table_pandas_arithmetics
+    owner: recetox
+    tool_panel_section_label: Metabolomics
+
+  - name: table_pandas_dropna
+    owner: recetox
+    tool_panel_section_label: Metabolomics
+
+  - name: table_pandas_rename_column
+    owner: recetox
+    tool_panel_section_label: Metabolomics
+
+  - name: table_pandas_rename_columns_regex
+    owner: recetox
+    tool_panel_section_label: Metabolomics
+
+  - name: table_pandas_transform
+    owner: recetox
+    tool_panel_section_label: Metabolomics
+  
+  - name: table_scipy_interpolate
+    owner: recetox
+    tool_panel_section_label: Metabolomics
+  
+  - name: stratified_block_randomization
+    owner: recetox
+    tool_panel_section_label: Metabolomics
+
+  - name: aoptk_parse_pdf
+    owner: recetox
+    tool_panel_section_label: Machine Learning
+
+  - name: aoptk_normalize_chemicals
+    owner: recetox
+    tool_panel_section_label: Machine Learning
+
+  - name: aoptk_query_literature
+    owner: recetox
+    tool_panel_section_label: Machine Learning
+
+  - name: aoptk_download_publication_data
+    owner: recetox
+    tool_panel_section_label: Machine Learning
+
+  - name: aoptk_final_modification
+    owner: recetox
+    tool_panel_section_label: Machine Learning
+
+  - name: aoptk_find_relationships_chemicals
+    owner: recetox
+    tool_panel_section_label: Machine Learning

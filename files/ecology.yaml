@@ -350,6 +350,10 @@ tools:
     owner: climate
     tool_panel_section_label: 'Climate Analysis'
 
+  - name: build_heterofor_forcing
+    owner: climate
+    tool_panel_section_label: 'Climate Analysis'
+
   - name: venn_list
     owner: peterjc
     tool_panel_section_label: 'Graph/Display Data'
@@ -912,6 +916,10 @@ tools:
     tool_panel_section_label: 'Data and Metadata Management'
 
   - name: data_paper_from_eml
+    owner: ecology
+    tool_panel_section_label: 'Data and Metadata Management'
+
+  - name: generate_spinup_metadata
     owner: ecology
     tool_panel_section_label: 'Data and Metadata Management'
 

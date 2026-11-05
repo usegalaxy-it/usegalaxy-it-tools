@@ -1292,6 +1292,7 @@ tools:
   - 92198ab2345f
   - a356a3e21032
   - cbf488da3b2c
+  - ff365aa70906
   tool_panel_section_label: RNA Analysis
 - name: dexseq
   owner: iuc
@@ -1598,6 +1599,7 @@ tools:
 - name: snpsift_genesets
   owner: iuc
   revisions:
+  - 333c2f24e479
   - 60d04e5f3dcf
   - d12a810c837e
   - ea2e7d299365
@@ -1659,6 +1661,7 @@ tools:
   revisions:
   - 4e21e4f2bc48
   - 563d1bdb7b80
+  - 90cf787c022c
   - cff5bd9c728d
   tool_panel_section_label: Variant Calling
 - name: snpsift
@@ -1666,6 +1669,7 @@ tools:
   revisions:
   - 0abc5513f795
   - 2b3e65a4252f
+  - 2d6319686ea3
   - 5fab4f81391d
   tool_panel_section_label: Variant Calling
 - name: snpsift_dbnsfp_generic
@@ -2394,6 +2398,7 @@ tools:
 - name: gemini_db_info
   owner: iuc
   revisions:
+  - 35da06b44b36
   - 7d75673f4d6f
   - b1e50c7b840e
   - f3cc64057b4e
@@ -2404,11 +2409,13 @@ tools:
   - 0c58ba91d018
   - 2e1155375cec
   - 9aad9ef0502c
+  - ed961fbc943a
   tool_panel_section_label: Gemini
 - name: gemini_burden
   owner: iuc
   revisions:
   - 2adedc87b4b8
+  - ad751c5f07ee
   - c70d79e0eed7
   - df57188562f0
   tool_panel_section_label: Gemini
@@ -2418,12 +2425,14 @@ tools:
   - 452104bdc655
   - 77284ac1dcee
   - a26f0a30df65
+  - dd898eba615a
   tool_panel_section_label: Gemini
 - name: gemini_stats
   owner: iuc
   revisions:
   - 56d27b51656b
   - 5c9efee9cb1e
+  - 7a3ea5b60cdf
   - cdd90678004a
   tool_panel_section_label: Gemini
 - name: gemini_mendel_errors
@@ -2436,6 +2445,7 @@ tools:
 - name: gemini_amend
   owner: iuc
   revisions:
+  - 12975d8333fb
   - a02cd62adb70
   - be828b79bd4d
   - fb2890358aa3
@@ -2444,6 +2454,7 @@ tools:
   owner: iuc
   revisions:
   - 69b5327a1f88
+  - 7762ce1bca87
   - 9199331c3421
   - f81c35b76194
   tool_panel_section_label: Gemini
@@ -2465,12 +2476,14 @@ tools:
   owner: iuc
   revisions:
   - 142d95ab942e
+  - 3f9467fdd1b5
   - 712aa8283200
   - c2bd9670af64
   tool_panel_section_label: Gemini
 - name: gemini_lof_sieve
   owner: iuc
   revisions:
+  - 022a2d6f22f5
   - 2969a1f43b7d
   - 84ede9f5fddb
   - 93a391b4602c
@@ -2478,6 +2491,7 @@ tools:
 - name: gemini_query
   owner: iuc
   revisions:
+  - 0f15dd4ed754
   - 11fdbee540e5
   - 840fb4850be3
   - da74170c55c7
@@ -2485,6 +2499,7 @@ tools:
 - name: gemini_fusions
   owner: iuc
   revisions:
+  - 1ad8a89c934c
   - 8151a5a0e4f6
   - b35fd707c586
   - dc09f8b919a4
@@ -2495,6 +2510,7 @@ tools:
   - 45296e47d565
   - b2c25142267e
   - cca3391dc8b4
+  - fa3f688c2e33
   tool_panel_section_label: Gemini
 - name: gemini_de_novo
   owner: iuc
@@ -2507,6 +2523,7 @@ tools:
   revisions:
   - 081adc1e0cd5
   - 0c8f7322f8fc
+  - 8ed06371fe08
   - f2f3bc622a16
   tool_panel_section_label: Gemini
 - name: gemini_recessive_and_dominant
@@ -2520,6 +2537,7 @@ tools:
   owner: iuc
   revisions:
   - 345d41f3f574
+  - 89d30b65356f
   - ce54eb6fd5f9
   - d509e44a3fe0
   tool_panel_section_label: Gemini
@@ -2528,6 +2546,7 @@ tools:
   revisions:
   - 7b031989ea12
   - 96222aa3e86e
+  - 98c8a4b63976
   - e4e2128460e3
   tool_panel_section_label: Gemini
 - name: gemini_qc
@@ -2536,6 +2555,7 @@ tools:
   - 246ad1a7ff20
   - 86e46972e183
   - ae60026eac0c
+  - e107b378f75d
   tool_panel_section_label: Gemini
 - name: gemini_comp_hets
   owner: iuc
@@ -2549,6 +2569,7 @@ tools:
   - 2550239feed5
   - 48021eee7e33
   - a6d326ffbb72
+  - fc09b92de85f
   tool_panel_section_label: Gemini
 - name: genome_diversity
   owner: miller-lab

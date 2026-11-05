@@ -1,0 +1,7 @@
+name	owner	n_before	n_after	kept	removed	warning
+revertr2orientationinbam	lldelisle	1	1	21ddefab2e4f		
+cooler_makebins	lldelisle	2	2	3df254580b06,c3dc51297bf8		
+cooler_csort_tabix	lldelisle	2	2	026950a1853c,d56db0e1555d		
+cooler_cload_tabix	lldelisle	2	2	168e86e96afa,3ff6eeca667e		
+cooler_balance	lldelisle	2	2	8f71aaf6e59d,b387933e4d3d		
+cooler_zoomify	lldelisle	1	1	4069512d96bd		

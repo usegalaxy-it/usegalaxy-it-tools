@@ -1,0 +1,109 @@
+name	owner	n_before	n_after	kept	removed	warning
+dropletutils_read_10x	ebi-gxa	3	3	3dd08eb96cf6,48c1e7b39675,ca62f52e0d7f		
+dropletutils_empty_drops	ebi-gxa	2	2	8dd732e13393,fa662ca7ae7f		
+gtf2gene_list	ebi-gxa	6	3	00ee933b08fd,14b3f2a4523b,1a642de6db01	040d4b3a19d5,b6354c917ef9,e255c0e5dfca	
+retrieve_scxa	ebi-gxa	2	2	72b6e1747e37,cd6b80f62fcc		
+hca_matrix_downloader	ebi-gxa	3	3	2e81fbe036b2,c127d4124583,c3c85b67d118		
+sc3_calc_biology	ebi-gxa	1	1	2ee3dd245f72		
+sc3_calc_consens	ebi-gxa	1	1	aa83350751f5		
+sc3_calc_dists	ebi-gxa	1	1	d005fe979d80		
+sc3_calc_transfs	ebi-gxa	1	1	b06019da7b5a		
+sc3_estimate_k	ebi-gxa	1	1	aab4d3a52ee3		
+sc3_kmeans	ebi-gxa	1	1	b3c3cf813a49		
+sc3_prepare	ebi-gxa	1	1	9a2b61bfdaa9		
+anndata_ops	ebi-gxa	17	3	2e8022f1923c,7ef2403a250d,a4774b7b2e85	35ee5e3e87c1,52ee45fd7690,53a251c6d991,6aa025ea64d3,7ebc22f77d86,825dfd66e3fb,890fb06a2893,93ecc487a7d1,a0274bc43b7e,a36d7a315be7,a4ad76e3dc4a,d868221262d5,ec4604919de3,fe75d2414dc0	
+scanpy_compute_graph	ebi-gxa	19	3	22bd5861706d,6417cccad133,f776e3ed3c03	0fe56ddbab0d,232937b5bb8f,2401808e20e8,3bce5710a90b,3cf0177ed87e,3d242b0d97d0,5ec3b715809c,7779b9dcf040,7ad420b1be89,a58d4166805b,bc9e8de21efb,c42c2b540ced,c78c930e3263,e6c989a9211c,e7fd6981c0f0,fe740b19e3b9	
+scanpy_filter_cells	ebi-gxa	17	3	356fa6c27341,bf1e0bdec1db,e9283529cba1	361608369dda,3c3c254c9deb,4c42e5d8cb7c,55ccc0a121bc,7fd39eb52f38,8d97bee137b5,8e48fa9618c1,9024cf7a9a13,9f0ca1641ab2,b28ba58033ea,ba64b91ed2b9,c23d0ff783d4,da8c130348b6,dcfb23758646	
+scanpy_filter_genes	ebi-gxa	17	3	474a69c47184,9a36525a8425,cc64914b0cf4	082832adea96,0bba942e0869,23d838d1569d,4bc377096eea,6953c7e519cd,6ac8b9a3a279,77fbe74247c2,7857ea93a011,7aebd6265a97,a1698b43abeb,d1b97a5d5a8d,d82d999fa716,da611a744112,fa6c08064fc1	
+scanpy_find_cluster	ebi-gxa	19	3	2ccd9f9e2cd0,36735850e461,d19920419c78	002f73dae0a7,15e8a4c60418,2704d80b7e91,2784759ad631,35caf3c27c91,5e68e130fafe,621d7d7a605f,6a9e2be28b07,9e4f79e40b84,ab7a3bb8a622,ad6995afd2e6,b456d129066d,ce27ae8a36cd,ed07813a7266,ee181563bae7,fc4b3b46dc9d	
+scanpy_find_markers	ebi-gxa	20	3	64259337506f,d8f5224005bb,f0f78d29130f	0a8e527d1517,0fc4e76c5c0d,1670af5eee46,23939bfeee92,377224a3cd1d,49653e680ea4,615a46c220f0,67fa4288eee5,7042ce140caa,71668dd2d47b,81c34e67f262,af9cf232d6c9,c608fd80ec15,cc776860fae1,eb01a7e59e9a,f04dd4e5b6a7,fb9bd74c32b0	
+scanpy_find_variable_genes	ebi-gxa	16	3	273faaa2bd69,2bc42a6f092b,64dd8bb151e1	0edb75c411a4,258e13397a8a,2861ca3bfe4d,305d0cbe0ffd,438a09194001,4667fe07bd68,5c62f39aab8f,7558a3d8338e,7793c8284aa5,79da59a0b180,7a68f44c866b,ae467daae2f7,b089f4a55e6b	
+scanpy_normalise_data	ebi-gxa	16	3	3027cb62adbd,4bbb2179521c,6b97ffba31da	059f8d2e8be1,1442daff0c7c,1dda36e73482,28b1546857b0,3636ec97f3af,3a4564b9d685,439f7f939d46,463d4fa8f5ec,47c747351d62,8d9c22419c56,9681ec095ed5,e541f264fad2,f6a781314ca8	
+scanpy_parameter_iterator	ebi-gxa	5	3	0387a2179f88,73d43034c860,b9dd12ab0550	645f12f44a6d,fb354a78d4ae	
+scanpy_plot_embed	ebi-gxa	14	3	35f6611fb8c3,7d5c97823f8b,bfb4d298d75f	068c4bf0e0db,1be0fc4d8654,452e0f19c2a2,56d22aa6cb3b,882f4671d686,99dd7baf9e23,9fafbfcdee0d,a8ef4bc35839,b2410da4e381,c591b2ffc2d7,dba78f1681b1	
+scanpy_plot_trajectory	ebi-gxa	14	3	9d746af31fe8,cb1992d1804b,f489ccdd423c	1bc31f0f3aea,1d0e587bdd60,3a00e9e50eb8,4e666c43b6e3,5dde9b3c169e,629ed290bf30,63cbe6d65e67,77985b89bd0a,c99f397434a3,d3df472a21dc,d8423c3f869d	
+seurat_plot	ebi-gxa	1	1	95d79f1134f0		
+seurat_run_umap	ebi-gxa	1	1	b9424c715a0d		
+scanpy_read_10x	ebi-gxa	15	3	078aa23c9374,9afcfcd1d215,af6ecb5adcc1	287503c35cb4,30a139b5fcfb,3931e8e8d678,3faf577f3e40,572b6e3b2aff,741d50b6dc78,7757f4b43174,bd4a491baf39,c2fe8568f35f,c8391a25dee3,d253d69ff19f,d92e6f12b790	
+scanpy_regress_variable	ebi-gxa	13	3	0bab2ae44e7a,1200b55768ce,bd65279c7ddc	2131ec9d52e2,2cf10c8c094d,3229d550f325,36daab33aecf,59d3ce1cfaa8,91157b3432df,9e92447122a6,d18ed15697bb,e51380afa61c,eed0986f53c7	
+scanpy_run_diffmap	ebi-gxa	14	3	79cc06a557b0,afec1d52b87d,e2ca1846080f	1709957891e5,3f8d10b43598,4a53eb16b926,5603d3e55053,6a6364b488db,722ba62d7bb4,7abe27a3866e,83baf6001a10,8e45c89adab2,e3123e51e781,f10df597ed6d	
+scanpy_run_dpt	ebi-gxa	14	3	03921aa8b29c,2e06dabb3f2f,2f569aa8c920	12f67b0c1a94,1ab80fc6f667,202e28c59b59,299aca1029a1,5c54f3eb81d3,8a6860957c84,8ca1de77945e,b1cb0c2831ea,b2b2211da550,d49523477607,e274c2d06e53	
+scanpy_run_fdg	ebi-gxa	14	3	7c6581b57ad4,be019b069e31,cef0ddd01875	02793592e36a,07e0163086ad,4722394f6af9,5bcec1fc4c7f,5d2c8acd2ae4,65c3ec07502b,6c40cc3e9dc0,932e99b4dc5f,a6190ae4fe16,d929261bc28c,f5bc7d1b32fd	
+scanpy_run_paga	ebi-gxa	13	3	4e7d55438238,6b7a5d15a89b,b2768cae00a1	211fe30d83be,69df3f287281,6d4f88995e40,7ea07327147a,9dcd0b02d686,b9ccaa957667,d811772b94d7,ed2231b3edff,f49758aa29e5,fa114efdb1e7	
+scanpy_run_pca	ebi-gxa	16	3	4428dba93375,59028945c857,f0eecf608220	04bdc69f00d7,0cf90e01d9f8,1618435e2a33,3ee74b58c72d,4fbc4b97090f,5063cd7f8c89,544d45fca48f,7798c318e7d7,7ee4417b24cc,988edd5fa902,aee7b7f9cae3,c990e40fbd46,ce93e630b55a	
+scanpy_run_tsne	ebi-gxa	17	3	181d61d2f3cd,64cd33540fee,abdb61e4afa3	091e5d709ef7,2e74fd7b5f45,384cacc40611,3fb53f5e46ea,45674f057a31,753bf41cc2e3,8b0d6f6f44c8,8eff7ec034e3,a597590ccf6c,af9b447bcde8,b5e1939cc155,c4a20a57d825,f6f189ce4ebc,fe727a9496ea	
+scanpy_run_umap	ebi-gxa	16	3	9984f48961d0,bd4a244faeb8,ea91cfd0444e	0ac2f9f2313b,0da35cd42e7c,0f98603d0116,10893b1647ff,3bd1152dd854,41f6078040da,447c4a7e8561,62c31dc2e5d5,767a675b5254,88c1516e25e0,abae3d11d920,e31937baa330,fe562424a0a6	
+scanpy_scale_data	ebi-gxa	15	3	4cc9362782b4,bf30bd6355da,f86b2c3bc459	22f2957da902,4f04a735b26d,5605f8452eb3,95887cb6859f,9664a6c00fd1,96b851e96dd0,9acb5f068e6b,c6e52529260e,c8f196ccf34a,e2d0dc8a50ca,ea8fd43b7e1e,eabf8e76e007	
+scanpy_integrate_combat	ebi-gxa	9	3	3c2ff50cef4a,3c47bc560688,c6611adc8f4a	0b851815e0b6,2de673ef8c13,352cdf3b2f75,5c25b8a985e8,7a573108f5f4,9f995f5e855a	
+scanpy_integrate_harmony	ebi-gxa	9	3	18e01a7c55c6,3111bcf039dd,c354af93f567	1d92cea73607,2cef3539f420,6903bc865d63,bf824765919c,c8eb5547846b,ca0c7251e415	
+scanpy_integrate_mnn	ebi-gxa	9	3	3ba9371733a2,e9788746e0f6,ff6decc0f432	4951ff9f43db,5bb009f95e03,94697510d55f,9724e5ffaa1f,9a2f72d7dbd2,eb30e34367b1	
+scanpy_integrate_bbknn	ebi-gxa	9	3	12fc7e093094,1fb88fd7dce5,c9da9192eee5	3803efa11152,3d9322fd5716,6e903e287858,932f0f51074c,9d76c3d6dff6,de8643b6e419	
+scanpy_plot_scrublet	ebi-gxa	4	3	2d3b13bb704a,4276a6dea8d1,6f5509cf3176	021a6e341dcf	
+scanpy_multiplet_scrublet	ebi-gxa	4	3	53ce0e336840,b8126b3bf5d0,fadc4fbf8025	8ca3ab8300ce	
+scanpy_integrate_bbknn	ebi-gxa	9	3	12fc7e093094,1fb88fd7dce5,c9da9192eee5	3803efa11152,3d9322fd5716,6e903e287858,932f0f51074c,9d76c3d6dff6,de8643b6e419	
+seurat_create_seurat_object	ebi-gxa	1	1	f8865ae30723		
+seurat_dim_plot	ebi-gxa	6	3	316623eb59bd,64174ac50d78,cfc3d8ee3a64	6e26ee99fdfc,daeca8f7a26e,e7e01a7fea38	
+seurat_export_cellbrowser	ebi-gxa	6	3	249392cd0d99,36221da750e8,e7d338f8c4fc	80eec773c961,8c2b1d2659df,a18f8d34524a	
+seurat_filter_cells	ebi-gxa	6	3	c4b984347138,cd9f564bd63f,ebf7286c8b97	30982e805f8c,3c41916bc2ad,c1848daebad1	
+seurat_find_clusters	ebi-gxa	6	3	8ed848ef86fd,d541e9e62beb,eefaffdcd441	11a008daee84,8ea738667314,bdabb6af06e4	
+seurat_find_markers	ebi-gxa	6	3	07fc9f4841b3,3dd20b758756,a1842dbe01cd	203dcb6f2faf,7895b4bb6247,fde95fe95f15	
+seurat_find_variable_genes	ebi-gxa	6	3	051953328516,5be60722113a,948fc0276b4f	5a79dc04aafe,a56efad05337,a6077346f869	
+seurat_normalise_data	ebi-gxa	6	3	3f49bc9c9213,a835b38e389f,c5d4fce10c45	48174ec556de,619fead82856,778e1a98055f	
+seurat_read10x	ebi-gxa	6	3	301cf1b4b43d,893ea1e1eed3,f5db0e853f57	1b8566f3c1d0,265dcc5bc1e8,948ce48561f9	
+seurat_run_pca	ebi-gxa	6	3	3fd59cdcb477,8ded486b0014,9547ebb03f6f	a54f3400a885,c4607a42113e,df80f3d2f9d4	
+seurat_run_tsne	ebi-gxa	6	3	0db997e4a81d,2d294978b152,8d9ceaec2c7f	050fe6894b74,13a27436f8ee,3aea769deab1	
+seurat_scale_data	ebi-gxa	6	3	4147dc085d45,5e9ba303f9e1,d2f6eac0ad42	1656179f8e7c,3d0bfc2a233e,6166efaeb4a6	
+seurat_find_neighbours	ebi-gxa	5	3	99d628557c47,ab622ffd7c7f,ba897c57bdd9	262943cd4821,4fff8ad1c76d	
+monocle3_create	ebi-gxa	4	3	2e446b0cb437,a34f243f55a4,ada68a9d0aec	75340a5e5fb0	
+monocle3_diffexp	ebi-gxa	4	3	c5665e286bcf,d43a608d14ac,f91ddb6bc4ff	c0441ea8f37a	
+monocle3_learngraph	ebi-gxa	3	3	5f877012f7af,710d112ee525,98e99ab36505		
+monocle3_ordercells	ebi-gxa	3	3	3e77dc421569,5520da33a868,e17c3123cdb5		
+monocle3_partition	ebi-gxa	3	3	426e1a869cb3,be84f9c3a2dd,d98b4705eb4c		
+monocle3_plotcells	ebi-gxa	5	3	016c39d243fb,91980addce5e,ef2dc754709c	3e737c810a54,896359db6339	
+monocle3_preprocess	ebi-gxa	3	3	0869b0264af1,384b9bcf2807,c150370b514c		
+monocle3_reducedim	ebi-gxa	3	3	004a86dffd79,8900e2a18603,9e59e242ed63		
+monocle3_topmarkers	ebi-gxa	1	1	a4ab4af54b1a		
+run_sccaf	ebi-gxa	2	2	647d34f125bc,ca26d4b4b02c		
+sccaf_asses	ebi-gxa	2	2	37a4c22f600b,95670267a5b6		
+sccaf_asses_merger	ebi-gxa	2	2	933fad89b50a,99d15ded4d5f		
+sccaf_regress_out	ebi-gxa	1	1	5ef0610e9f50		
+scmap_preprocess_sce	ebi-gxa	3	3	10c060627ef9,62513698ee34,80d97bdbfc7b		
+scmap_index_cell	ebi-gxa	9	3	7c3f9606ed0a,c17b3c6c1e31,dd0b44bd359a	0f5e46b0981a,11b4b9b85b9c,17b3d7e04b3c,441df83ffc7c,5593b0744de9,640982866dfe	
+scmap_index_cluster	ebi-gxa	7	3	1949832b448c,4ff68faee6e1,9cc085052dc2	38c6a98c7c60,4696224064ff,9b60d5972dbd,e6d99b0652ec	
+scmap_scmap_cell	ebi-gxa	6	3	1543a50e08c9,32ae4a600167,b78cdc83a479	3b686a0e826e,5e6d54e2ab89,c2ca3bc40523	
+scmap_scmap_cluster	ebi-gxa	6	3	2a320bb37bf0,3f16a94610df,a0da1d3155dd	1989bd869cff,49025c0cd5ca,b436e7d353ae	
+scmap_select_features	ebi-gxa	6	3	5972aea41e0e,836661f50897,e5aaa5bea06a	139321321fdd,75ed6252dec5,953c7ff4069e	
+scmap_get_std_output	ebi-gxa	4	3	0d713384d8d8,2f63b1cd9122,45cd8de0d44d	39370cc49ae7	
+ucsc_cell_browser	ebi-gxa	6	3	544d44faa8bf,8da642e17794,97483e5ec21e	674777a022e4,679dfd1dd63b,ad5179780e25	
+sceasy_convert	ebi-gxa	1	1	f62bc418173f		
+text_processing	bgruening	13	3	30b60202d990,ab83aa685821,c41d78ae5fee	0a8c6b61f0f4,12615d397df7,3dc70b59608c,6073bb457ec0,86755160afbf,9ff72e942410,d698c222f354,ddf54b12c295,f46f0e4f75c4,fbf99087e067	
+umi_tools_count	iuc	9	3	43bcc103b1e9,71ad4a56c40c,9570563fb686	24013bf85a6f,70cb5527defb,8250ea3a1501,a535cf1e5da4,b557acca0b56,e654095ab143	
+salmon_kallisto_mtx_to_10x	ebi-gxa	4	3	5675dc87bb8d,88f5a0a6a818,e42c217a450f	60fa6080f86f	
+droplet_barcode_plot	ebi-gxa	3	3	04f32429dcf2,0e985680e67d,8f605643ccfd		
+ct_build_cell_ontology_dict	ebi-gxa	3	3	512b239a11ad,982a151b2960,b51c48b16ffe		
+ct_combine_tool_outputs	ebi-gxa	4	3	844689a7f66e,846b34f8755e,f2e01e023137	44b6219cba2d	
+ct_get_consensus_outputs	ebi-gxa	5	3	00abf723fc87,0917f5e09d83,87d54692a537	32101a7373ae,559fbff1f573	
+ct_get_empirical_dist	ebi-gxa	4	3	14eb5128af69,36eab91e0ff5,5bf2827cd314	ce70358b0fe3	
+ct_get_tool_perf_table	ebi-gxa	4	3	424f8251a202,90d7f30478ee,d15f7509077b	71c809e81f66	
+ct_get_tool_pvals	ebi-gxa	3	3	39f348e76f41,4290ef6cbb68,52df56743cd9		
+decoupler_pseudobulk	ebi-gxa	8	3	09c833d9b03b,2557d7869e78,508a93e34599	68a2b5445558,70a5c6f2408d,93f61ea19336,bd4b54b75888,f6040492b499	
+garnett_check_markers	ebi-gxa	1	1	ce67c5c9a56e		
+garnett_classify_cells	ebi-gxa	1	1	715b020ecfb6		
+garnett_get_feature_genes	ebi-gxa	1	1	3176cbad2800		
+garnett_get_std_output	ebi-gxa	1	1	5f05e2901299		
+garnett_train_classifier	ebi-gxa	1	1	9be21507358d		
+garnett_transform_markers	ebi-gxa	1	1	1dc49d16e96c		
+update_marker_file	ebi-gxa	1	1	3a1cfbb8aa56		
+scpred_eigen_decompose	ebi-gxa	3	3	18397dae3a15,3867289e6c1a,70e5a19d9d7e		
+scpred_get_feature_space	ebi-gxa	4	3	17325882fa72,2fa2f084ad32,826f41212307	4a77d2091aec	
+scpred_get_std_output	ebi-gxa	4	3	598b1d9dd135,9f3ce66cd91f,d276a8dd73c7	43ce84bd1d9a	
+scpred_preprocess_data	ebi-gxa	1	1	9ce18a0e5cfd		
+scpred_predict_labels	ebi-gxa	4	3	b869bb6d4b01,d071810dc6db,fd06ab29487f	1bc003e80986	
+scpred_train_model	ebi-gxa	4	3	03d1ed93e523,a7269f8f45aa,b3c543769af9	ba53e46a4275	
+scpred_traint_test_split	ebi-gxa	3	3	7aec34208f30,a6d66c9953ed,bb71ba86e806		
+scater_read_10x_results	ebi-gxa	1	1	da3f394039b5		
+scater_normalize	ebi-gxa	1	1	c01a342be892		
+scater_is_outlier	ebi-gxa	1	1	add247843ef0		
+scater_filter	ebi-gxa	1	1	32f886c22e75		
+scater_calculate_qc_metrics	ebi-gxa	1	1	2fd982fab98a		
+scater_calculate_cpm	ebi-gxa	1	1	66e18f77e161		

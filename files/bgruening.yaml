@@ -68,6 +68,10 @@ tools:
     owner: bgruening
     tool_panel_section_label: RNA Analysis
 
+  - name: drs_transcript_prediction
+    owner: bgruening
+    tool_panel_section_label: RNA Analysis
+
   - name: mirge3
     owner: bgruening
     tool_panel_section_label: RNA Analysis
@@ -521,6 +525,10 @@ tools:
     owner: bgruening
     tool_panel_section_label: Imaging
 
+  - name: dna_foundation_models
+    owner: bgruening
+    tool_panel_section_label: Machine Learning
+
 # MACHINE LEARNING
 
   - name: keras_batch_models
@@ -826,6 +834,10 @@ tools:
   - name: nanopolish_variants
     owner: bgruening
     tool_panel_section_label: Nanopore
+
+  - name: 3dtrees_sidecar
+    owner: bgruening
+    tool_panel_section_label: Other Tools
 
 # OTHER TOOLS
 
