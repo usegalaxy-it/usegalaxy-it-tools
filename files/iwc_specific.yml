@@ -1,0 +1,79 @@
+# Exact tool revisions required by IWC workflows (tests 2026-11-05) and not obtainable
+# from usegalaxy-eu-tools after trim-revisions (--keep 3). Do NOT trim this lockfile.
+# Excluded (Currently unsupported, UG-083): imaging, computational-chemistry, qcxms, GPU workflows.
+---
+install_repository_dependencies: true
+install_resolver_dependencies: true
+install_tool_dependencies: false
+
+tools:
+
+  - name: bakta
+    owner: iuc
+    tool_panel_section_label: Annotation
+  - name: bedtools
+    owner: iuc
+    tool_panel_section_label: BED
+  - name: cooler_balance
+    owner: lldelisle
+    tool_panel_section_label: Epigenetics
+  - name: cooler_cload_tabix
+    owner: lldelisle
+    tool_panel_section_label: Epigenetics
+  - name: cooler_makebins
+    owner: lldelisle
+    tool_panel_section_label: Epigenetics
+  - name: gfastats
+    owner: bgruening
+    tool_panel_section_label: FASTA/FASTQ
+  - name: fastp
+    owner: iuc
+    tool_panel_section_label: FASTA/FASTQ
+  - name: seqkit_stats
+    owner: iuc
+    tool_panel_section_label: FASTA/FASTQ
+  - name: rdeval
+    owner: richard-burhans
+    tool_panel_section_label: FASTA/FASTQ
+  - name: bwa
+    owner: devteam
+    tool_panel_section_label: Mapping
+  - name: minimap2
+    owner: iuc
+    tool_panel_section_label: Mapping
+  - name: gtdbtk_classify_wf
+    owner: iuc
+    tool_panel_section_label: Metagenomic Analysis
+  - name: medaka_variant
+    owner: iuc
+    tool_panel_section_label: Nanopore
+  - name: picard
+    owner: devteam
+    tool_panel_section_label: Picard
+  - name: multiqc
+    owner: iuc
+    tool_panel_section_label: Quality Control
+  - name: samtools_stats
+    owner: devteam
+    tool_panel_section_label: SAM/BAM
+  - name: anndata_import
+    owner: iuc
+    tool_panel_section_label: Single-cell
+  - name: anndata_inspect
+    owner: iuc
+    tool_panel_section_label: Single-cell
+  - name: anndata_manipulate
+    owner: iuc
+    tool_panel_section_label: Single-cell
+  - name: column_maker
+    owner: devteam
+    tool_panel_section_label: Text Manipulation
+  - name: bcftools_annotate
+    owner: iuc
+    tool_panel_section_label: Variant Calling
+  - name: snpeff
+    owner: iuc
+    tool_panel_section_label: Variant Calling
+  - name: ivar_trim
+    owner: iuc
+    tool_panel_section_label: Virology
