@@ -101,20 +101,24 @@ tools:
   owner: cpt
   revisions:
   - 8f5f2142fc2b
+  - fb20937b651f
   tool_panel_section_label: Convert Formats
 - name: cpt_gff_to_gbk
   owner: cpt
   revisions:
+  - 3300b3f82ecd
   - e4f590da4f21
   tool_panel_section_label: Convert Formats
 - name: cpt_gbk_renumber
   owner: cpt
   revisions:
   - 8cac332dbc77
+  - ddc20ec06963
   tool_panel_section_label: Annotation
 - name: cpt_genome_editor
   owner: cpt
   revisions:
+  - 0a5b883cb064
   - 0e8079ac24f8
   tool_panel_section_label: Annotation
 - name: cpt_phageqc_annotations
@@ -130,6 +134,7 @@ tools:
 - name: cpt_linear_genome_plot
   owner: cpt
   revisions:
+  - 0530865d2e81
   - e2449c8659be
   tool_panel_section_label: Graph/Display Data
 - name: cpt_gff_split

@@ -1,7 +1,3 @@
-# Exact tool revisions required by IWC workflows (tests 2026-11-05) and not obtainable
-# from usegalaxy-eu-tools after trim-revisions (--keep 3). Do NOT trim this lockfile.
-# Excluded (Currently unsupported, UG-083): imaging, computational-chemistry, qcxms, GPU workflows.
----
 install_repository_dependencies: true
 install_resolver_dependencies: true
 install_tool_dependencies: false
@@ -10,41 +6,49 @@ tools:
   owner: iuc
   revisions:
   - 25f3b474ca6f
+  - c03be23045b7
   tool_panel_section_label: Annotation
 - name: bedtools
   owner: iuc
   revisions:
   - a68aa6c1204a
+  - d57471728f7b
   tool_panel_section_label: BED
 - name: cooler_balance
   owner: lldelisle
   revisions:
   - 8f9fe0667b89
+  - b387933e4d3d
   tool_panel_section_label: Epigenetics
 - name: cooler_cload_tabix
   owner: lldelisle
   revisions:
   - 0641e1c892c6
+  - 168e86e96afa
   tool_panel_section_label: Epigenetics
 - name: cooler_makebins
   owner: lldelisle
   revisions:
+  - 3df254580b06
   - ebd2a52eb245
   tool_panel_section_label: Epigenetics
 - name: gfastats
   owner: bgruening
   revisions:
+  - 10dc0f5a82e2
   - 3ef480892a9f
   tool_panel_section_label: FASTA/FASTQ
 - name: fastp
   owner: iuc
   revisions:
+  - 4990e6f1348f
   - 65b93b623c77
   - dbf9c561ef29
   tool_panel_section_label: FASTA/FASTQ
 - name: seqkit_stats
   owner: iuc
   revisions:
+  - 0a2a529e24e3
   - 812705bcf39c
   tool_panel_section_label: FASTA/FASTQ
 - name: rdeval
@@ -55,72 +59,86 @@ tools:
 - name: bwa
   owner: devteam
   revisions:
+  - 2e9f2d3d1b39
   - 64f11cf59c6e
   tool_panel_section_label: Mapping
 - name: minimap2
   owner: iuc
   revisions:
+  - 7a6382582d76
   - 8c6cd2650d1f
   tool_panel_section_label: Mapping
 - name: gtdbtk_classify_wf
   owner: iuc
   revisions:
+  - 199b07074e1f
   - 53a019316350
   tool_panel_section_label: Metagenomic Analysis
 - name: medaka_variant
   owner: iuc
   revisions:
   - 0f5f4a208660
+  - 16fc9856b20a
   tool_panel_section_label: Nanopore
 - name: picard
   owner: devteam
   revisions:
+  - 933d5b76e8e8
   - a1f0b3f4b781
   tool_panel_section_label: Picard
 - name: multiqc
   owner: iuc
   revisions:
-  - 9a913cdee30e
-  - 5e33b465d8d5
   - 26ee5e11ecbe
+  - 5e33b465d8d5
+  - 94b6bea727ae
+  - 9a913cdee30e
   tool_panel_section_label: Quality Control
 - name: samtools_stats
   owner: devteam
   revisions:
   - 145f6d74ff5e
+  - 8fca6e1eac98
   tool_panel_section_label: SAM/BAM
 - name: anndata_import
   owner: iuc
   revisions:
   - 6f143dfe902a
+  - 8f8c0fdd625d
   tool_panel_section_label: Single-cell
 - name: anndata_inspect
   owner: iuc
   revisions:
   - 14c576ea6148
+  - 3a9aee9e3551
   tool_panel_section_label: Single-cell
 - name: anndata_manipulate
   owner: iuc
   revisions:
+  - 637e50759b72
   - c4209ea387d4
   tool_panel_section_label: Single-cell
 - name: column_maker
   owner: devteam
   revisions:
   - 02026300aa45
+  - b6236eb1a50b
   tool_panel_section_label: Text Manipulation
 - name: bcftools_annotate
   owner: iuc
   revisions:
   - 403553ae19f6
+  - b79aae13e613
   tool_panel_section_label: Variant Calling
 - name: snpeff
   owner: iuc
   revisions:
   - 74aebe30fb52
+  - 908f2c5fedec
   tool_panel_section_label: Variant Calling
 - name: ivar_trim
   owner: iuc
   revisions:
+  - 8b20bc80ebf4
   - c092052ed673
   tool_panel_section_label: Virology

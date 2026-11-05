@@ -521,6 +521,11 @@ tools:
   - 7d288c7d5612
   - 7ffc3748ffde
   tool_panel_section_label: Annotation
+- name: hmmer_esl_alimask
+  owner: iuc
+  revisions:
+  - ad61d822a347
+  tool_panel_section_label: Annotation
 - name: impg_stats
   owner: iuc
   revisions:
@@ -604,11 +609,13 @@ tools:
   owner: iuc
   revisions:
   - 02dccb7d3577
+  - 57dc0ac7986d
   tool_panel_section_label: Annotation
 - name: odb_mapper
   owner: iuc
   revisions:
   - 44e468457a1a
+  - ea2d06dc9b4c
   tool_panel_section_label: Annotation
 - name: pggb
   owner: iuc
@@ -1563,6 +1570,7 @@ tools:
 - name: fastk_fastk
   owner: iuc
   revisions:
+  - 825d9ecf8e62
   - 8779f4d2d04d
   - 9f8c786bd424
   - fa011b0032b0
@@ -1571,6 +1579,7 @@ tools:
   owner: iuc
   revisions:
   - 0cae005d8c4c
+  - 92620e417940
   - 9b1aebbaec34
   - ec82f2b95e89
   tool_panel_section_label: Assembly
@@ -1579,6 +1588,7 @@ tools:
   revisions:
   - 1fcb1a2950cb
   - 3e5642ac5620
+  - d9e75105c19f
   - e1954bd8bde9
   tool_panel_section_label: Assembly
 - name: genomescope
@@ -2405,6 +2415,7 @@ tools:
   owner: iuc
   revisions:
   - 1acacc1a3d70
+  - 3191e6dd3a23
   - 3a4256d4f079
   - a6540beef35f
   - bb486fb0103d
@@ -3923,6 +3934,7 @@ tools:
 - name: newick_utils
   owner: iuc
   revisions:
+  - 77a7e69dd018
   - b4163d2f64ab
   - fe4235285ee8
   tool_panel_section_label: Graph/Display Data
@@ -4004,6 +4016,7 @@ tools:
   owner: iuc
   revisions:
   - 3d5b9e4df7ba
+  - 717c6164fea4
   - c0b740d23adc
   - e4790edb4299
   tool_panel_section_label: Graph/Display Data
@@ -4574,6 +4587,7 @@ tools:
   - b12d81af0291
   - eaa10652acc2
   - f4af63aaf57a
+  - f6ff91cb3120
   tool_panel_section_label: Mapping
 - name: kma
   owner: iuc
@@ -4885,6 +4899,16 @@ tools:
   - 08c3d450e57b
   - 954448bad930
   - b83613ee99ad
+  tool_panel_section_label: Metagenomic Analysis
+- name: perseus_filter
+  owner: iuc
+  revisions:
+  - f50e145d2ce4
+  tool_panel_section_label: Metagenomic Analysis
+- name: perseus_extract
+  owner: iuc
+  revisions:
+  - bb927f2618d2
   tool_panel_section_label: Metagenomic Analysis
 - name: samestr
   owner: iuc
@@ -5775,6 +5799,7 @@ tools:
   owner: iuc
   revisions:
   - 7624945cacd3
+  - dea68ccbaaa4
   - e0de12ae3fc2
   - e699e2747356
   tool_panel_section_label: Metagenomic Analysis
@@ -5784,10 +5809,12 @@ tools:
   - 385a965c6f87
   - 55109291a355
   - 65b382bf9b7c
+  - df7bcd680b4f
   tool_panel_section_label: Metagenomic Analysis
 - name: khmer_count_median
   owner: iuc
   revisions:
+  - 3d3a5a25327d
   - 570505540a7b
   - 77410799e8e9
   - b3d513c7093e
@@ -5797,6 +5824,7 @@ tools:
   revisions:
   - 1061711538c6
   - 2c763fb18010
+  - 78ad71f8eca0
   - adb3dd5a899f
   tool_panel_section_label: Metagenomic Analysis
 - name: khmer_filter_abundance
@@ -5805,6 +5833,7 @@ tools:
   - 29a4d6e2ae9c
   - 8c6433857aa8
   - b86562b4f3fd
+  - d4ae72d26aec
   tool_panel_section_label: Metagenomic Analysis
 - name: khmer_filter_below_abundance_cutoff
   owner: iuc
@@ -5812,18 +5841,21 @@ tools:
   - 00f7064c564b
   - 19607c740d19
   - 569001af897d
+  - 698a05471529
   tool_panel_section_label: Metagenomic Analysis
 - name: khmer_normalize_by_median
   owner: iuc
   revisions:
   - 4d23ab83ea29
   - 557cc16931f4
+  - 8c2960737cd6
   - b1fe2ef3d244
   tool_panel_section_label: Metagenomic Analysis
 - name: khmer_partition
   owner: iuc
   revisions:
   - 5a0fa29951ae
+  - 6bae4a2f6d31
   - 8388fe31d604
   - e562293ee5ec
   tool_panel_section_label: Metagenomic Analysis
@@ -7958,6 +7990,7 @@ tools:
 - name: ncbi_blast_plus
   owner: devteam
   revisions:
+  - 71a9b71a2fa1
   - cbf3f518b668
   - d999e774072a
   - fc35ffc8c548
@@ -8465,6 +8498,7 @@ tools:
   owner: iuc
   revisions:
   - 7fd632270301
+  - ca2586fa4501
   tool_panel_section_label: Other Tools
 - name: rp2paths
   owner: iuc
@@ -8618,6 +8652,11 @@ tools:
   revisions:
   - 232a5f01268b
   tool_panel_section_label: Phylogenetics
+- name: epa_ng
+  owner: iuc
+  revisions:
+  - 19e946b670a0
+  tool_panel_section_label: Phylogenetics
 - name: fastreer_dist2tree
   owner: iuc
   revisions:
@@ -8651,6 +8690,21 @@ tools:
   revisions:
   - 83f07cd6d309
   - a09f9cea9df0
+  tool_panel_section_label: Phylogenetics
+- name: gappa_heat_tree
+  owner: iuc
+  revisions:
+  - 2444c2fc3f13
+  tool_panel_section_label: Phylogenetics
+- name: gappa_graft
+  owner: iuc
+  revisions:
+  - 33f469f98aa8
+  tool_panel_section_label: Phylogenetics
+- name: gappa_assign
+  owner: iuc
+  revisions:
+  - 442077f8df1c
   tool_panel_section_label: Phylogenetics
 - name: hybpiper
   owner: iuc
@@ -8952,6 +9006,11 @@ tools:
   revisions:
   - 0e30cfea5f30
   tool_panel_section_label: Phylogenetics
+- name: rhizaeon
+  owner: iuc
+  revisions:
+  - de2ae09d50a1
+  tool_panel_section_label: Phylogenetics
 - name: sarscov2formatter
   owner: iuc
   revisions:
@@ -8975,6 +9034,11 @@ tools:
   owner: iuc
   revisions:
   - 67ef1dddcad9
+  tool_panel_section_label: Phylogenetics
+- name: trace50
+  owner: iuc
+  revisions:
+  - 8dda68a54129
   tool_panel_section_label: Phylogenetics
 - name: usher
   owner: iuc
@@ -9701,6 +9765,7 @@ tools:
   owner: iuc
   revisions:
   - 2c3d294dbe42
+  - 9980289f89ab
   - d6b5fc94062c
   tool_panel_section_label: RNA Analysis
 - name: slamdunk
@@ -9715,6 +9780,7 @@ tools:
   owner: iuc
   revisions:
   - 2c3d294dbe42
+  - 9980289f89ab
   - d6b5fc94062c
   tool_panel_section_label: RNA Analysis
 - name: stringtie
@@ -10637,12 +10703,14 @@ tools:
 - name: spapros_selection
   owner: iuc
   revisions:
+  - a10f0b0a7f48
   - d72bd6516719
   tool_panel_section_label: Single-cell
 - name: spapros_evaluation
   owner: iuc
   revisions:
   - 069a5b48eae0
+  - 10f1917ee20d
   tool_panel_section_label: Single-cell
 - name: episcanpy_build_matrix
   owner: iuc
@@ -12648,6 +12716,10 @@ tools:
   owner: iuc
   revisions:
   - 4a08b7b76b78
+- name: data_manager_ete3_taxonomy
+  owner: iuc
+  revisions:
+  - 5cb597aedf80
 - name: data_manager_fetch_refseq
   owner: iuc
   revisions:
@@ -12861,6 +12933,7 @@ tools:
   - 3a3cb74b3f6e
   - 750d902de22c
   - b2a92f75fda8
+  - e83290ce69ad
 - name: data_manager_build_staramr
   owner: iuc
   revisions:

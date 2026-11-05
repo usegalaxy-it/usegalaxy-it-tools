@@ -255,3 +255,8 @@ tools:
   - c8913c72ee87
   - f421fd0c42ea
   tool_panel_section_label: Annotation
+- name: eggsplorer
+  owner: galaxyp
+  revisions:
+  - 8713c7ecec38
+  tool_panel_section_label: Annotation

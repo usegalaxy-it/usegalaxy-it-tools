@@ -74,6 +74,7 @@ tools:
   revisions:
   - 3034ce97dd33
   - 6f386c5dc4fb
+  - 71a9b71a2fa1
   - 7538e2bfcd41
   - fc35ffc8c548
   tool_panel_section_label: NCBI Blast
