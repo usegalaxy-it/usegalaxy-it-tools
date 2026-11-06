@@ -11,6 +11,9 @@ tools:
   - name: bakta
     owner: iuc
     tool_panel_section_label: Annotation
+  - name: compleasm
+    owner: iuc
+    tool_panel_section_label: Annotation
   - name: bedtools
     owner: iuc
     tool_panel_section_label: BED
@@ -35,6 +38,9 @@ tools:
   - name: rdeval
     owner: richard-burhans
     tool_panel_section_label: FASTA/FASTQ
+  - name: datamash_ops
+    owner: iuc
+    tool_panel_section_label: Join, Subtract and Group
   - name: bwa
     owner: devteam
     tool_panel_section_label: Mapping
@@ -44,6 +50,9 @@ tools:
   - name: gtdbtk_classify_wf
     owner: iuc
     tool_panel_section_label: Metagenomic Analysis
+  - name: medaka_consensus
+    owner: iuc
+    tool_panel_section_label: Nanopore
   - name: medaka_variant
     owner: iuc
     tool_panel_section_label: Nanopore
@@ -56,6 +65,9 @@ tools:
   - name: samtools_stats
     owner: devteam
     tool_panel_section_label: SAM/BAM
+  - name: samtools_view
+    owner: iuc
+    tool_panel_section_label: SAM/BAM
   - name: anndata_import
     owner: iuc
     tool_panel_section_label: Single-cell
@@ -65,9 +77,15 @@ tools:
   - name: anndata_manipulate
     owner: iuc
     tool_panel_section_label: Single-cell
+  - name: text_processing
+    owner: bgruening
+    tool_panel_section_label: Text Manipulation
   - name: column_maker
     owner: devteam
     tool_panel_section_label: Text Manipulation
+  - name: freebayes
+    owner: devteam
+    tool_panel_section_label: Variant Calling
   - name: bcftools_annotate
     owner: iuc
     tool_panel_section_label: Variant Calling
